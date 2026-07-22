@@ -1,0 +1,53 @@
+{
+  "format": "tape-vb2-openvino-v1",
+  "checkpoint": "/home/ubuntu/projects/vb-action/models/tape_vb2_beach_player_ball_v19_18f_resume_best_aug_110ep/best_v19.pt",
+  "checkpoint_epoch": 7,
+  "architecture_version": 19,
+  "config": {
+    "image_height": 288,
+    "image_width": 512,
+    "input_channels": 3,
+    "clip_length": 18,
+    "hidden_dim": 128,
+    "backbone_dim": 32,
+    "proposal_top_k": 32,
+    "decoder_layers": 2,
+    "num_heads": 4,
+    "dropout": 0.1,
+    "samples_per_level": 4,
+    "proposal_nms_kernel": 3,
+    "persistent_score_bias": 0.5,
+    "persistent_query_fraction": 0.5,
+    "ball_grid_size": null,
+    "num_court_points": 8,
+    "player_foreground_prior": 0.01,
+    "ball_foreground_prior": 0.01,
+    "ball_width_prior": 0.012,
+    "ball_height_prior": 0.021,
+    "num_steps": 0,
+    "crop_size": 0,
+    "sensor_dim": 0
+  },
+  "input_name": "frames",
+  "input_shape": [
+    1,
+    18,
+    3,
+    288,
+    512
+  ],
+  "output_names": [
+    "logits",
+    "boxes",
+    "temporal_association",
+    "head_points",
+    "head_visibility",
+    "foot_points",
+    "foot_visibility",
+    "query_vectors",
+    "ball_grid"
+  ],
+  "weights": "FP16",
+  "openvino_xml": "/home/ubuntu/projects/vb-action/RAVEL-VB/models/ravel_vb_v1_seq18.xml",
+  "openvino_bin": "/home/ubuntu/projects/vb-action/RAVEL-VB/models/ravel_vb_v1_seq18.bin"
+}

@@ -1,0 +1,6639 @@
+{
+  "format": "ravel-vb-predictions-v1",
+  "model": "/home/ubuntu/projects/RAVEL-VB/models/ravel_vb_v1.xml",
+  "video": "/mnt/data-ml/datashared/beach_vollyeball/pro_man_Ahman_Kolb_20270702/video/pro_man_Ahman_Kolb_20270702_005.mp4",
+  "source_size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 25.0,
+  "clip_length": 9,
+  "stride": 1,
+  "score_threshold": 0.35,
+  "close_threshold": 0.2,
+  "hysteresis_frames": 2,
+  "benchmark": {
+    "processed_frames": 38,
+    "inference_runs": 31,
+    "model_seconds": 13.584378,
+    "model_ms_per_clip": 438.206,
+    "effective_model_frames_per_second": 2.282,
+    "pipeline_seconds": 13.924234,
+    "pipeline_frames_per_second": 2.729,
+    "device": "CPU"
+  },
+  "predictions": [
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.8595333099365234,
+      "query_index": null,
+      "frame_index": 0,
+      "time_sec": 0.0,
+      "bbox_xyxy": [
+        634.18,
+        225.92,
+        657.22,
+        248.6
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9556143283843994,
+      "query_index": 6,
+      "track_id": 0,
+      "frame_index": 0,
+      "interpolated": false,
+      "time_sec": 0.0,
+      "bbox_xyxy": [
+        1757.17,
+        305.38,
+        1839.72,
+        524.28
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9508377313613892,
+      "query_index": 0,
+      "track_id": 1,
+      "frame_index": 0,
+      "interpolated": false,
+      "time_sec": 0.0,
+      "bbox_xyxy": [
+        1101.73,
+        271.86,
+        1189.18,
+        406.52
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9501397609710693,
+      "query_index": 5,
+      "track_id": 2,
+      "frame_index": 0,
+      "interpolated": false,
+      "time_sec": 0.0,
+      "bbox_xyxy": [
+        806.64,
+        252.28,
+        899.29,
+        401.71
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9326160550117493,
+      "query_index": 3,
+      "track_id": 3,
+      "frame_index": 0,
+      "interpolated": false,
+      "time_sec": 0.0,
+      "bbox_xyxy": [
+        1044.26,
+        471.42,
+        1160.73,
+        766.03
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9216673374176025,
+      "query_index": 2,
+      "track_id": 4,
+      "frame_index": 0,
+      "interpolated": false,
+      "time_sec": 0.0,
+      "bbox_xyxy": [
+        302.05,
+        166.1,
+        363.6,
+        305.57
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9165387153625488,
+      "query_index": 1,
+      "track_id": 5,
+      "frame_index": 0,
+      "interpolated": false,
+      "time_sec": 0.0,
+      "bbox_xyxy": [
+        1752.67,
+        109.37,
+        1799.78,
+        254.07
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9100590944290161,
+      "query_index": 9,
+      "track_id": 6,
+      "frame_index": 0,
+      "interpolated": false,
+      "time_sec": 0.0,
+      "bbox_xyxy": [
+        1410.98,
+        199.76,
+        1470.59,
+        337.99
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9011496305465698,
+      "query_index": 8,
+      "track_id": 7,
+      "frame_index": 0,
+      "interpolated": false,
+      "time_sec": 0.0,
+      "bbox_xyxy": [
+        36.99,
+        581.08,
+        198.76,
+        827.82
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8724306225776672,
+      "query_index": 7,
+      "track_id": 8,
+      "frame_index": 0,
+      "interpolated": false,
+      "time_sec": 0.0,
+      "bbox_xyxy": [
+        582.64,
+        420.95,
+        696.04,
+        733.21
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6502137780189514,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 0,
+      "interpolated": false,
+      "time_sec": 0.0,
+      "bbox_xyxy": [
+        238.28,
+        121.55,
+        281.14,
+        251.83
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9845688343048096,
+      "query_index": null,
+      "frame_index": 1,
+      "time_sec": 0.04,
+      "bbox_xyxy": [
+        643.29,
+        255.4,
+        666.33,
+        278.08
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9319395422935486,
+      "query_index": 1,
+      "track_id": 5,
+      "frame_index": 1,
+      "interpolated": false,
+      "time_sec": 0.04,
+      "bbox_xyxy": [
+        1752.61,
+        109.37,
+        1799.71,
+        254.07
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9343573451042175,
+      "query_index": 2,
+      "track_id": 4,
+      "frame_index": 1,
+      "interpolated": false,
+      "time_sec": 0.04,
+      "bbox_xyxy": [
+        301.98,
+        166.13,
+        363.61,
+        305.31
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9626162052154541,
+      "query_index": 8,
+      "track_id": 0,
+      "frame_index": 1,
+      "interpolated": false,
+      "time_sec": 0.04,
+      "bbox_xyxy": [
+        1757.37,
+        304.94,
+        1840.11,
+        524.52
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9591255784034729,
+      "query_index": 0,
+      "track_id": 1,
+      "frame_index": 1,
+      "interpolated": false,
+      "time_sec": 0.04,
+      "bbox_xyxy": [
+        1101.56,
+        270.24,
+        1189.49,
+        406.51
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6568643450737,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 1,
+      "interpolated": false,
+      "time_sec": 0.04,
+      "bbox_xyxy": [
+        238.26,
+        120.92,
+        281.72,
+        252.39
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9332404136657715,
+      "query_index": 9,
+      "track_id": 6,
+      "frame_index": 1,
+      "interpolated": false,
+      "time_sec": 0.04,
+      "bbox_xyxy": [
+        1410.08,
+        197.49,
+        1470.13,
+        338.01
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8894742727279663,
+      "query_index": 6,
+      "track_id": 8,
+      "frame_index": 1,
+      "interpolated": false,
+      "time_sec": 0.04,
+      "bbox_xyxy": [
+        585.24,
+        420.09,
+        695.18,
+        736.95
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9478643536567688,
+      "query_index": 5,
+      "track_id": 3,
+      "frame_index": 1,
+      "interpolated": false,
+      "time_sec": 0.04,
+      "bbox_xyxy": [
+        1040.3,
+        470.08,
+        1159.39,
+        765.66
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.962794840335846,
+      "query_index": 3,
+      "track_id": 2,
+      "frame_index": 1,
+      "interpolated": false,
+      "time_sec": 0.04,
+      "bbox_xyxy": [
+        804.83,
+        249.35,
+        897.98,
+        401.46
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.923229992389679,
+      "query_index": 7,
+      "track_id": 7,
+      "frame_index": 1,
+      "interpolated": false,
+      "time_sec": 0.04,
+      "bbox_xyxy": [
+        39.64,
+        578.12,
+        209.17,
+        833.08
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9750148057937622,
+      "query_index": null,
+      "frame_index": 2,
+      "time_sec": 0.08,
+      "bbox_xyxy": [
+        644.88,
+        275.17,
+        667.92,
+        297.85
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9342348575592041,
+      "query_index": 2,
+      "track_id": 4,
+      "frame_index": 2,
+      "interpolated": false,
+      "time_sec": 0.08,
+      "bbox_xyxy": [
+        302.02,
+        166.02,
+        363.58,
+        305.33
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.938918948173523,
+      "query_index": 1,
+      "track_id": 5,
+      "frame_index": 2,
+      "interpolated": false,
+      "time_sec": 0.08,
+      "bbox_xyxy": [
+        1752.71,
+        109.19,
+        1799.64,
+        254.13
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9681973457336426,
+      "query_index": 7,
+      "track_id": 0,
+      "frame_index": 2,
+      "interpolated": false,
+      "time_sec": 0.08,
+      "bbox_xyxy": [
+        1757.76,
+        304.62,
+        1840.24,
+        524.27
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6663245558738708,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 2,
+      "interpolated": false,
+      "time_sec": 0.08,
+      "bbox_xyxy": [
+        238.34,
+        120.56,
+        282.11,
+        252.66
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9396485090255737,
+      "query_index": 5,
+      "track_id": 6,
+      "frame_index": 2,
+      "interpolated": false,
+      "time_sec": 0.08,
+      "bbox_xyxy": [
+        1410.11,
+        197.27,
+        1469.19,
+        338.15
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9612857103347778,
+      "query_index": 0,
+      "track_id": 1,
+      "frame_index": 2,
+      "interpolated": false,
+      "time_sec": 0.08,
+      "bbox_xyxy": [
+        1101.83,
+        268.83,
+        1189.95,
+        406.16
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9644041061401367,
+      "query_index": 3,
+      "track_id": 2,
+      "frame_index": 2,
+      "interpolated": false,
+      "time_sec": 0.08,
+      "bbox_xyxy": [
+        803.73,
+        248.02,
+        897.58,
+        401.16
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9555975794792175,
+      "query_index": 6,
+      "track_id": 3,
+      "frame_index": 2,
+      "interpolated": false,
+      "time_sec": 0.08,
+      "bbox_xyxy": [
+        1038.9,
+        470.94,
+        1154.7,
+        764.98
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9392086863517761,
+      "query_index": 8,
+      "track_id": 7,
+      "frame_index": 2,
+      "interpolated": false,
+      "time_sec": 0.08,
+      "bbox_xyxy": [
+        42.04,
+        573.29,
+        213.76,
+        833.21
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8965603113174438,
+      "query_index": 9,
+      "track_id": 8,
+      "frame_index": 2,
+      "interpolated": false,
+      "time_sec": 0.08,
+      "bbox_xyxy": [
+        594.77,
+        403.66,
+        694.85,
+        730.82
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.986343264579773,
+      "query_index": null,
+      "frame_index": 3,
+      "time_sec": 0.12,
+      "bbox_xyxy": [
+        651.11,
+        301.87,
+        674.15,
+        324.55
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.934171199798584,
+      "query_index": 3,
+      "track_id": 4,
+      "frame_index": 3,
+      "interpolated": false,
+      "time_sec": 0.12,
+      "bbox_xyxy": [
+        302.08,
+        165.95,
+        363.56,
+        305.23
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9398078322410583,
+      "query_index": 2,
+      "track_id": 5,
+      "frame_index": 3,
+      "interpolated": false,
+      "time_sec": 0.12,
+      "bbox_xyxy": [
+        1752.57,
+        109.16,
+        1799.6,
+        254.16
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9437868595123291,
+      "query_index": 5,
+      "track_id": 6,
+      "frame_index": 3,
+      "interpolated": false,
+      "time_sec": 0.12,
+      "bbox_xyxy": [
+        1409.89,
+        197.25,
+        1468.79,
+        338.33
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9562236666679382,
+      "query_index": 7,
+      "track_id": 3,
+      "frame_index": 3,
+      "interpolated": false,
+      "time_sec": 0.12,
+      "bbox_xyxy": [
+        1037.38,
+        471.02,
+        1154.86,
+        764.93
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6809560656547546,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 3,
+      "interpolated": false,
+      "time_sec": 0.12,
+      "bbox_xyxy": [
+        238.43,
+        120.12,
+        282.73,
+        252.94
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9611846208572388,
+      "query_index": 0,
+      "track_id": 1,
+      "frame_index": 3,
+      "interpolated": false,
+      "time_sec": 0.12,
+      "bbox_xyxy": [
+        1101.78,
+        265.63,
+        1190.19,
+        405.6
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9644289612770081,
+      "query_index": 6,
+      "track_id": 0,
+      "frame_index": 3,
+      "interpolated": false,
+      "time_sec": 0.12,
+      "bbox_xyxy": [
+        1761.66,
+        304.6,
+        1840.31,
+        525.14
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9614288210868835,
+      "query_index": 1,
+      "track_id": 2,
+      "frame_index": 3,
+      "interpolated": false,
+      "time_sec": 0.12,
+      "bbox_xyxy": [
+        802.36,
+        246.88,
+        894.01,
+        401.18
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9432147741317749,
+      "query_index": 9,
+      "track_id": 7,
+      "frame_index": 3,
+      "interpolated": false,
+      "time_sec": 0.12,
+      "bbox_xyxy": [
+        46.45,
+        570.95,
+        206.88,
+        834.94
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.876579225063324,
+      "query_index": 8,
+      "track_id": 8,
+      "frame_index": 3,
+      "interpolated": false,
+      "time_sec": 0.12,
+      "bbox_xyxy": [
+        600.1,
+        367.87,
+        690.91,
+        722.09
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.787977397441864,
+      "query_index": null,
+      "frame_index": 4,
+      "time_sec": 0.16,
+      "bbox_xyxy": [
+        654.97,
+        306.43,
+        678.01,
+        329.11
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9343485832214355,
+      "query_index": 3,
+      "track_id": 4,
+      "frame_index": 4,
+      "interpolated": false,
+      "time_sec": 0.16,
+      "bbox_xyxy": [
+        302.07,
+        165.9,
+        363.5,
+        305.2
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9397070407867432,
+      "query_index": 2,
+      "track_id": 5,
+      "frame_index": 4,
+      "interpolated": false,
+      "time_sec": 0.16,
+      "bbox_xyxy": [
+        1752.69,
+        108.99,
+        1799.54,
+        254.23
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9652226567268372,
+      "query_index": 6,
+      "track_id": 0,
+      "frame_index": 4,
+      "interpolated": false,
+      "time_sec": 0.16,
+      "bbox_xyxy": [
+        1761.86,
+        304.71,
+        1840.72,
+        524.41
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6881346702575684,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 4,
+      "interpolated": false,
+      "time_sec": 0.16,
+      "bbox_xyxy": [
+        238.39,
+        120.46,
+        283.16,
+        253.02
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9457976222038269,
+      "query_index": 5,
+      "track_id": 6,
+      "frame_index": 4,
+      "interpolated": false,
+      "time_sec": 0.16,
+      "bbox_xyxy": [
+        1409.6,
+        197.35,
+        1468.19,
+        337.62
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9621339440345764,
+      "query_index": 0,
+      "track_id": 1,
+      "frame_index": 4,
+      "interpolated": false,
+      "time_sec": 0.16,
+      "bbox_xyxy": [
+        1101.66,
+        261.73,
+        1190.36,
+        405.79
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.961606502532959,
+      "query_index": 7,
+      "track_id": 3,
+      "frame_index": 4,
+      "interpolated": false,
+      "time_sec": 0.16,
+      "bbox_xyxy": [
+        1034.48,
+        469.47,
+        1151.98,
+        764.83
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9593570828437805,
+      "query_index": 1,
+      "track_id": 2,
+      "frame_index": 4,
+      "interpolated": false,
+      "time_sec": 0.16,
+      "bbox_xyxy": [
+        801.41,
+        246.8,
+        889.64,
+        401.29
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9358501434326172,
+      "query_index": 9,
+      "track_id": 7,
+      "frame_index": 4,
+      "interpolated": false,
+      "time_sec": 0.16,
+      "bbox_xyxy": [
+        48.61,
+        569.46,
+        212.85,
+        837.86
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8644071221351624,
+      "query_index": 8,
+      "track_id": 8,
+      "frame_index": 4,
+      "interpolated": false,
+      "time_sec": 0.16,
+      "bbox_xyxy": [
+        604.08,
+        368.31,
+        692.42,
+        708.39
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9738034009933472,
+      "query_index": null,
+      "frame_index": 5,
+      "time_sec": 0.2,
+      "bbox_xyxy": [
+        650.63,
+        269.73,
+        673.67,
+        292.41
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9389941096305847,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 5,
+      "interpolated": false,
+      "time_sec": 0.2,
+      "bbox_xyxy": [
+        1752.66,
+        109.09,
+        1799.45,
+        254.24
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9350295066833496,
+      "query_index": 2,
+      "track_id": 4,
+      "frame_index": 5,
+      "interpolated": false,
+      "time_sec": 0.2,
+      "bbox_xyxy": [
+        302.0,
+        165.84,
+        363.44,
+        305.27
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9661969542503357,
+      "query_index": 7,
+      "track_id": 0,
+      "frame_index": 5,
+      "interpolated": false,
+      "time_sec": 0.2,
+      "bbox_xyxy": [
+        1761.59,
+        304.11,
+        1840.95,
+        524.54
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9468997120857239,
+      "query_index": 5,
+      "track_id": 6,
+      "frame_index": 5,
+      "interpolated": false,
+      "time_sec": 0.2,
+      "bbox_xyxy": [
+        1409.38,
+        197.09,
+        1467.84,
+        337.73
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9613752961158752,
+      "query_index": 6,
+      "track_id": 3,
+      "frame_index": 5,
+      "interpolated": false,
+      "time_sec": 0.2,
+      "bbox_xyxy": [
+        1032.46,
+        469.36,
+        1150.53,
+        764.81
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9640688300132751,
+      "query_index": 3,
+      "track_id": 1,
+      "frame_index": 5,
+      "interpolated": false,
+      "time_sec": 0.2,
+      "bbox_xyxy": [
+        1101.19,
+        257.99,
+        1190.57,
+        406.03
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6832167506217957,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 5,
+      "interpolated": false,
+      "time_sec": 0.2,
+      "bbox_xyxy": [
+        237.55,
+        119.8,
+        283.6,
+        253.61
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9586520195007324,
+      "query_index": 1,
+      "track_id": 2,
+      "frame_index": 5,
+      "interpolated": false,
+      "time_sec": 0.2,
+      "bbox_xyxy": [
+        800.46,
+        247.74,
+        885.37,
+        400.09
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9454562664031982,
+      "query_index": 8,
+      "track_id": 7,
+      "frame_index": 5,
+      "interpolated": false,
+      "time_sec": 0.2,
+      "bbox_xyxy": [
+        62.14,
+        569.08,
+        219.04,
+        840.45
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8746271133422852,
+      "query_index": 9,
+      "track_id": 8,
+      "frame_index": 5,
+      "interpolated": false,
+      "time_sec": 0.2,
+      "bbox_xyxy": [
+        609.42,
+        362.47,
+        700.48,
+        709.19
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9557886719703674,
+      "query_index": null,
+      "frame_index": 6,
+      "time_sec": 0.24,
+      "bbox_xyxy": [
+        646.5,
+        239.67,
+        669.54,
+        262.35
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9352738857269287,
+      "query_index": 1,
+      "track_id": 4,
+      "frame_index": 6,
+      "interpolated": false,
+      "time_sec": 0.24,
+      "bbox_xyxy": [
+        301.88,
+        165.78,
+        363.46,
+        305.38
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.966707706451416,
+      "query_index": 7,
+      "track_id": 0,
+      "frame_index": 6,
+      "interpolated": false,
+      "time_sec": 0.24,
+      "bbox_xyxy": [
+        1761.34,
+        303.77,
+        1840.94,
+        524.49
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9384046792984009,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 6,
+      "interpolated": false,
+      "time_sec": 0.24,
+      "bbox_xyxy": [
+        1752.4,
+        109.11,
+        1799.41,
+        254.35
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9472920298576355,
+      "query_index": 3,
+      "track_id": 6,
+      "frame_index": 6,
+      "interpolated": false,
+      "time_sec": 0.24,
+      "bbox_xyxy": [
+        1409.05,
+        196.96,
+        1467.89,
+        337.92
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6596090793609619,
+      "query_index": 2,
+      "track_id": 9,
+      "frame_index": 6,
+      "interpolated": false,
+      "time_sec": 0.24,
+      "bbox_xyxy": [
+        236.93,
+        119.97,
+        283.75,
+        253.83
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9670419096946716,
+      "query_index": 5,
+      "track_id": 1,
+      "frame_index": 6,
+      "interpolated": false,
+      "time_sec": 0.24,
+      "bbox_xyxy": [
+        1100.74,
+        255.33,
+        1190.62,
+        406.16
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9629031419754028,
+      "query_index": 4,
+      "track_id": 3,
+      "frame_index": 6,
+      "interpolated": false,
+      "time_sec": 0.24,
+      "bbox_xyxy": [
+        1029.98,
+        467.96,
+        1149.32,
+        765.38
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9582997560501099,
+      "query_index": 6,
+      "track_id": 2,
+      "frame_index": 6,
+      "interpolated": false,
+      "time_sec": 0.24,
+      "bbox_xyxy": [
+        799.4,
+        248.28,
+        880.96,
+        396.62
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9516506195068359,
+      "query_index": 9,
+      "track_id": 7,
+      "frame_index": 6,
+      "interpolated": false,
+      "time_sec": 0.24,
+      "bbox_xyxy": [
+        82.65,
+        568.16,
+        222.91,
+        839.03
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9212080240249634,
+      "query_index": 8,
+      "track_id": 8,
+      "frame_index": 6,
+      "interpolated": false,
+      "time_sec": 0.24,
+      "bbox_xyxy": [
+        617.02,
+        387.99,
+        703.32,
+        708.04
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9853454232215881,
+      "query_index": null,
+      "frame_index": 7,
+      "time_sec": 0.28,
+      "bbox_xyxy": [
+        645.08,
+        215.75,
+        668.12,
+        238.43
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9347788095474243,
+      "query_index": 1,
+      "track_id": 4,
+      "frame_index": 7,
+      "interpolated": false,
+      "time_sec": 0.28,
+      "bbox_xyxy": [
+        301.82,
+        165.77,
+        363.37,
+        305.35
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9387810826301575,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 7,
+      "interpolated": false,
+      "time_sec": 0.28,
+      "bbox_xyxy": [
+        1752.62,
+        109.15,
+        1799.4,
+        254.37
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9470474123954773,
+      "query_index": 4,
+      "track_id": 6,
+      "frame_index": 7,
+      "interpolated": false,
+      "time_sec": 0.28,
+      "bbox_xyxy": [
+        1409.41,
+        196.86,
+        1467.94,
+        337.79
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6394331455230713,
+      "query_index": 3,
+      "track_id": 9,
+      "frame_index": 7,
+      "interpolated": false,
+      "time_sec": 0.28,
+      "bbox_xyxy": [
+        236.77,
+        119.87,
+        284.23,
+        254.37
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9665992259979248,
+      "query_index": 8,
+      "track_id": 0,
+      "frame_index": 7,
+      "interpolated": false,
+      "time_sec": 0.28,
+      "bbox_xyxy": [
+        1760.28,
+        303.77,
+        1841.8,
+        524.84
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9643145799636841,
+      "query_index": 6,
+      "track_id": 3,
+      "frame_index": 7,
+      "interpolated": false,
+      "time_sec": 0.28,
+      "bbox_xyxy": [
+        1026.73,
+        467.15,
+        1148.66,
+        765.02
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9581114649772644,
+      "query_index": 2,
+      "track_id": 2,
+      "frame_index": 7,
+      "interpolated": false,
+      "time_sec": 0.28,
+      "bbox_xyxy": [
+        796.9,
+        250.24,
+        880.5,
+        397.3
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9654311537742615,
+      "query_index": 5,
+      "track_id": 1,
+      "frame_index": 7,
+      "interpolated": false,
+      "time_sec": 0.28,
+      "bbox_xyxy": [
+        1101.44,
+        249.94,
+        1191.11,
+        407.39
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9534010887145996,
+      "query_index": 7,
+      "track_id": 8,
+      "frame_index": 7,
+      "interpolated": false,
+      "time_sec": 0.28,
+      "bbox_xyxy": [
+        617.38,
+        395.76,
+        711.66,
+        711.26
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.962351381778717,
+      "query_index": 9,
+      "track_id": 7,
+      "frame_index": 7,
+      "interpolated": false,
+      "time_sec": 0.28,
+      "bbox_xyxy": [
+        99.49,
+        568.33,
+        224.8,
+        837.37
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9864770174026489,
+      "query_index": null,
+      "frame_index": 8,
+      "time_sec": 0.32,
+      "bbox_xyxy": [
+        644.19,
+        206.6,
+        667.23,
+        229.28
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9391675591468811,
+      "query_index": 1,
+      "track_id": 5,
+      "frame_index": 8,
+      "interpolated": false,
+      "time_sec": 0.32,
+      "bbox_xyxy": [
+        1752.57,
+        109.28,
+        1799.39,
+        254.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9337841868400574,
+      "query_index": 2,
+      "track_id": 4,
+      "frame_index": 8,
+      "interpolated": false,
+      "time_sec": 0.32,
+      "bbox_xyxy": [
+        301.72,
+        165.94,
+        363.32,
+        305.22
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.962620735168457,
+      "query_index": 7,
+      "track_id": 3,
+      "frame_index": 8,
+      "interpolated": false,
+      "time_sec": 0.32,
+      "bbox_xyxy": [
+        1026.62,
+        466.19,
+        1148.43,
+        763.13
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9610716104507446,
+      "query_index": 3,
+      "track_id": 1,
+      "frame_index": 8,
+      "interpolated": false,
+      "time_sec": 0.32,
+      "bbox_xyxy": [
+        1101.47,
+        248.35,
+        1191.22,
+        406.81
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9461334347724915,
+      "query_index": 4,
+      "track_id": 6,
+      "frame_index": 8,
+      "interpolated": false,
+      "time_sec": 0.32,
+      "bbox_xyxy": [
+        1409.92,
+        196.83,
+        1467.48,
+        337.56
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.5768833756446838,
+      "query_index": 5,
+      "track_id": 9,
+      "frame_index": 8,
+      "interpolated": false,
+      "time_sec": 0.32,
+      "bbox_xyxy": [
+        237.38,
+        121.47,
+        284.77,
+        254.54
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9708024859428406,
+      "query_index": 8,
+      "track_id": 0,
+      "frame_index": 8,
+      "interpolated": false,
+      "time_sec": 0.32,
+      "bbox_xyxy": [
+        1755.77,
+        304.0,
+        1842.13,
+        524.67
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9594699144363403,
+      "query_index": 0,
+      "track_id": 2,
+      "frame_index": 8,
+      "interpolated": false,
+      "time_sec": 0.32,
+      "bbox_xyxy": [
+        793.19,
+        252.26,
+        879.72,
+        397.55
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9542732834815979,
+      "query_index": 9,
+      "track_id": 8,
+      "frame_index": 8,
+      "interpolated": false,
+      "time_sec": 0.32,
+      "bbox_xyxy": [
+        622.55,
+        398.23,
+        710.53,
+        713.17
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9624893665313721,
+      "query_index": 6,
+      "track_id": 7,
+      "frame_index": 8,
+      "interpolated": false,
+      "time_sec": 0.32,
+      "bbox_xyxy": [
+        115.63,
+        567.14,
+        231.32,
+        836.37
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9965631365776062,
+      "query_index": null,
+      "frame_index": 9,
+      "time_sec": 0.36,
+      "bbox_xyxy": [
+        641.48,
+        188.42,
+        664.52,
+        211.1
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9329619407653809,
+      "query_index": 1,
+      "track_id": 4,
+      "frame_index": 9,
+      "interpolated": false,
+      "time_sec": 0.36,
+      "bbox_xyxy": [
+        301.76,
+        166.0,
+        363.26,
+        305.14
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.938994824886322,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 9,
+      "interpolated": false,
+      "time_sec": 0.36,
+      "bbox_xyxy": [
+        1752.65,
+        109.4,
+        1799.55,
+        254.22
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9687724113464355,
+      "query_index": 7,
+      "track_id": 0,
+      "frame_index": 9,
+      "interpolated": false,
+      "time_sec": 0.36,
+      "bbox_xyxy": [
+        1755.04,
+        304.15,
+        1842.23,
+        525.65
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9465883374214172,
+      "query_index": 6,
+      "track_id": 6,
+      "frame_index": 9,
+      "interpolated": false,
+      "time_sec": 0.36,
+      "bbox_xyxy": [
+        1410.58,
+        196.73,
+        1467.63,
+        338.03
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9602281451225281,
+      "query_index": 3,
+      "track_id": 1,
+      "frame_index": 9,
+      "interpolated": false,
+      "time_sec": 0.36,
+      "bbox_xyxy": [
+        1100.85,
+        247.01,
+        1191.42,
+        406.76
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9646179676055908,
+      "query_index": 8,
+      "track_id": 3,
+      "frame_index": 9,
+      "interpolated": false,
+      "time_sec": 0.36,
+      "bbox_xyxy": [
+        1024.96,
+        466.87,
+        1149.29,
+        761.44
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6044200658798218,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 9,
+      "interpolated": false,
+      "time_sec": 0.36,
+      "bbox_xyxy": [
+        237.41,
+        123.38,
+        285.9,
+        254.43
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9644508361816406,
+      "query_index": 2,
+      "track_id": 2,
+      "frame_index": 9,
+      "interpolated": false,
+      "time_sec": 0.36,
+      "bbox_xyxy": [
+        792.17,
+        255.22,
+        881.85,
+        397.65
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9673501253128052,
+      "query_index": 9,
+      "track_id": 7,
+      "frame_index": 9,
+      "interpolated": false,
+      "time_sec": 0.36,
+      "bbox_xyxy": [
+        121.89,
+        565.63,
+        233.37,
+        838.79
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9503194689750671,
+      "query_index": 5,
+      "track_id": 8,
+      "frame_index": 9,
+      "interpolated": false,
+      "time_sec": 0.36,
+      "bbox_xyxy": [
+        625.66,
+        405.84,
+        714.19,
+        717.7
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9997550249099731,
+      "query_index": null,
+      "frame_index": 10,
+      "time_sec": 0.4,
+      "bbox_xyxy": [
+        639.27,
+        182.65,
+        662.31,
+        205.33
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.933023989200592,
+      "query_index": 2,
+      "track_id": 4,
+      "frame_index": 10,
+      "interpolated": false,
+      "time_sec": 0.4,
+      "bbox_xyxy": [
+        301.75,
+        166.03,
+        363.23,
+        305.17
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9382423162460327,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 10,
+      "interpolated": false,
+      "time_sec": 0.4,
+      "bbox_xyxy": [
+        1752.61,
+        109.45,
+        1799.68,
+        254.26
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9682397246360779,
+      "query_index": 4,
+      "track_id": 0,
+      "frame_index": 10,
+      "interpolated": false,
+      "time_sec": 0.4,
+      "bbox_xyxy": [
+        1754.93,
+        304.3,
+        1842.07,
+        525.85
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9601225256919861,
+      "query_index": 1,
+      "track_id": 1,
+      "frame_index": 10,
+      "interpolated": false,
+      "time_sec": 0.4,
+      "bbox_xyxy": [
+        1100.98,
+        246.23,
+        1191.37,
+        406.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6100102066993713,
+      "query_index": 3,
+      "track_id": 9,
+      "frame_index": 10,
+      "interpolated": false,
+      "time_sec": 0.4,
+      "bbox_xyxy": [
+        237.42,
+        123.39,
+        286.44,
+        254.54
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.94557785987854,
+      "query_index": 6,
+      "track_id": 6,
+      "frame_index": 10,
+      "interpolated": false,
+      "time_sec": 0.4,
+      "bbox_xyxy": [
+        1411.26,
+        196.79,
+        1468.05,
+        338.61
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9678059220314026,
+      "query_index": 5,
+      "track_id": 3,
+      "frame_index": 10,
+      "interpolated": false,
+      "time_sec": 0.4,
+      "bbox_xyxy": [
+        1024.84,
+        466.65,
+        1147.4,
+        758.7
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9701634049415588,
+      "query_index": 8,
+      "track_id": 2,
+      "frame_index": 10,
+      "interpolated": false,
+      "time_sec": 0.4,
+      "bbox_xyxy": [
+        791.58,
+        260.83,
+        883.54,
+        397.73
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.965092122554779,
+      "query_index": 9,
+      "track_id": 7,
+      "frame_index": 10,
+      "interpolated": false,
+      "time_sec": 0.4,
+      "bbox_xyxy": [
+        129.52,
+        564.89,
+        247.49,
+        840.05
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.951073169708252,
+      "query_index": 7,
+      "track_id": 8,
+      "frame_index": 10,
+      "interpolated": false,
+      "time_sec": 0.4,
+      "bbox_xyxy": [
+        633.98,
+        414.08,
+        720.52,
+        726.75
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9996744394302368,
+      "query_index": null,
+      "frame_index": 11,
+      "time_sec": 0.44,
+      "bbox_xyxy": [
+        638.75,
+        178.35,
+        661.79,
+        201.03
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9336082935333252,
+      "query_index": 1,
+      "track_id": 4,
+      "frame_index": 11,
+      "interpolated": false,
+      "time_sec": 0.44,
+      "bbox_xyxy": [
+        301.74,
+        166.08,
+        363.18,
+        305.19
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9375482797622681,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 11,
+      "interpolated": false,
+      "time_sec": 0.44,
+      "bbox_xyxy": [
+        1752.73,
+        109.56,
+        1799.68,
+        254.27
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9688234329223633,
+      "query_index": 5,
+      "track_id": 0,
+      "frame_index": 11,
+      "interpolated": false,
+      "time_sec": 0.44,
+      "bbox_xyxy": [
+        1755.18,
+        304.36,
+        1842.02,
+        525.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.613382875919342,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 11,
+      "interpolated": false,
+      "time_sec": 0.44,
+      "bbox_xyxy": [
+        237.34,
+        122.79,
+        286.41,
+        254.73
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9571305513381958,
+      "query_index": 2,
+      "track_id": 1,
+      "frame_index": 11,
+      "interpolated": false,
+      "time_sec": 0.44,
+      "bbox_xyxy": [
+        1100.79,
+        245.18,
+        1191.1,
+        406.99
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9697874188423157,
+      "query_index": 6,
+      "track_id": 3,
+      "frame_index": 11,
+      "interpolated": false,
+      "time_sec": 0.44,
+      "bbox_xyxy": [
+        1024.83,
+        466.82,
+        1143.46,
+        756.95
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9492432475090027,
+      "query_index": 8,
+      "track_id": 6,
+      "frame_index": 11,
+      "interpolated": false,
+      "time_sec": 0.44,
+      "bbox_xyxy": [
+        1412.84,
+        198.37,
+        1468.8,
+        338.04
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9597713351249695,
+      "query_index": 9,
+      "track_id": 7,
+      "frame_index": 11,
+      "interpolated": false,
+      "time_sec": 0.44,
+      "bbox_xyxy": [
+        136.0,
+        564.6,
+        248.25,
+        843.86
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.959845244884491,
+      "query_index": 3,
+      "track_id": 2,
+      "frame_index": 11,
+      "interpolated": false,
+      "time_sec": 0.44,
+      "bbox_xyxy": [
+        783.48,
+        264.76,
+        885.72,
+        399.09
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9554820656776428,
+      "query_index": 7,
+      "track_id": 8,
+      "frame_index": 11,
+      "interpolated": false,
+      "time_sec": 0.44,
+      "bbox_xyxy": [
+        638.25,
+        427.39,
+        728.37,
+        747.87
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9995545744895935,
+      "query_index": null,
+      "frame_index": 12,
+      "time_sec": 0.48,
+      "bbox_xyxy": [
+        637.47,
+        177.18,
+        660.51,
+        199.86
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9338122010231018,
+      "query_index": 2,
+      "track_id": 4,
+      "frame_index": 12,
+      "interpolated": false,
+      "time_sec": 0.48,
+      "bbox_xyxy": [
+        301.68,
+        166.24,
+        363.13,
+        305.21
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6153099536895752,
+      "query_index": 5,
+      "track_id": 9,
+      "frame_index": 12,
+      "interpolated": false,
+      "time_sec": 0.48,
+      "bbox_xyxy": [
+        237.6,
+        122.85,
+        286.28,
+        254.7
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9560086727142334,
+      "query_index": 3,
+      "track_id": 1,
+      "frame_index": 12,
+      "interpolated": false,
+      "time_sec": 0.48,
+      "bbox_xyxy": [
+        1100.52,
+        244.47,
+        1191.13,
+        407.39
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9706648588180542,
+      "query_index": 7,
+      "track_id": 0,
+      "frame_index": 12,
+      "interpolated": false,
+      "time_sec": 0.48,
+      "bbox_xyxy": [
+        1755.71,
+        304.35,
+        1842.1,
+        524.81
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9378629326820374,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 12,
+      "interpolated": false,
+      "time_sec": 0.48,
+      "bbox_xyxy": [
+        1753.25,
+        109.34,
+        1799.55,
+        254.12
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9717844724655151,
+      "query_index": 8,
+      "track_id": 3,
+      "frame_index": 12,
+      "interpolated": false,
+      "time_sec": 0.48,
+      "bbox_xyxy": [
+        1024.14,
+        467.03,
+        1141.65,
+        756.39
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9468590617179871,
+      "query_index": 6,
+      "track_id": 6,
+      "frame_index": 12,
+      "interpolated": false,
+      "time_sec": 0.48,
+      "bbox_xyxy": [
+        1414.23,
+        198.93,
+        1469.71,
+        336.97
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9567003846168518,
+      "query_index": 1,
+      "track_id": 2,
+      "frame_index": 12,
+      "interpolated": false,
+      "time_sec": 0.48,
+      "bbox_xyxy": [
+        771.94,
+        266.92,
+        885.32,
+        401.38
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9610769152641296,
+      "query_index": 4,
+      "track_id": 7,
+      "frame_index": 12,
+      "interpolated": false,
+      "time_sec": 0.48,
+      "bbox_xyxy": [
+        143.4,
+        565.56,
+        254.85,
+        855.53
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9522286653518677,
+      "query_index": 9,
+      "track_id": 8,
+      "frame_index": 12,
+      "interpolated": false,
+      "time_sec": 0.48,
+      "bbox_xyxy": [
+        641.04,
+        446.31,
+        733.85,
+        757.27
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9992219805717468,
+      "query_index": null,
+      "frame_index": 13,
+      "time_sec": 0.52,
+      "bbox_xyxy": [
+        636.12,
+        175.78,
+        659.16,
+        198.46
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9387084245681763,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 13,
+      "interpolated": false,
+      "time_sec": 0.52,
+      "bbox_xyxy": [
+        1753.29,
+        109.32,
+        1799.39,
+        254.1
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9343729615211487,
+      "query_index": 2,
+      "track_id": 4,
+      "frame_index": 13,
+      "interpolated": false,
+      "time_sec": 0.52,
+      "bbox_xyxy": [
+        301.6,
+        166.6,
+        363.03,
+        305.27
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9708722233772278,
+      "query_index": 7,
+      "track_id": 0,
+      "frame_index": 13,
+      "interpolated": false,
+      "time_sec": 0.52,
+      "bbox_xyxy": [
+        1755.68,
+        304.17,
+        1842.15,
+        525.93
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6199195384979248,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 13,
+      "interpolated": false,
+      "time_sec": 0.52,
+      "bbox_xyxy": [
+        237.83,
+        122.99,
+        286.03,
+        254.61
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.972939670085907,
+      "query_index": 9,
+      "track_id": 3,
+      "frame_index": 13,
+      "interpolated": false,
+      "time_sec": 0.52,
+      "bbox_xyxy": [
+        1023.71,
+        467.06,
+        1140.86,
+        755.99
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9554555416107178,
+      "query_index": 1,
+      "track_id": 1,
+      "frame_index": 13,
+      "interpolated": false,
+      "time_sec": 0.52,
+      "bbox_xyxy": [
+        1102.02,
+        242.14,
+        1191.36,
+        407.47
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9481381773948669,
+      "query_index": 3,
+      "track_id": 6,
+      "frame_index": 13,
+      "interpolated": false,
+      "time_sec": 0.52,
+      "bbox_xyxy": [
+        1415.21,
+        198.78,
+        1471.72,
+        337.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9566746950149536,
+      "query_index": 6,
+      "track_id": 2,
+      "frame_index": 13,
+      "interpolated": false,
+      "time_sec": 0.52,
+      "bbox_xyxy": [
+        766.35,
+        268.81,
+        885.46,
+        401.9
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9680140018463135,
+      "query_index": 5,
+      "track_id": 7,
+      "frame_index": 13,
+      "interpolated": false,
+      "time_sec": 0.52,
+      "bbox_xyxy": [
+        147.72,
+        567.86,
+        259.64,
+        864.47
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9605408906936646,
+      "query_index": 8,
+      "track_id": 8,
+      "frame_index": 13,
+      "interpolated": false,
+      "time_sec": 0.52,
+      "bbox_xyxy": [
+        643.24,
+        465.0,
+        739.2,
+        759.26
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9992403984069824,
+      "query_index": null,
+      "frame_index": 14,
+      "time_sec": 0.56,
+      "bbox_xyxy": [
+        633.09,
+        177.15,
+        656.13,
+        199.83
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9348351955413818,
+      "query_index": 3,
+      "track_id": 4,
+      "frame_index": 14,
+      "interpolated": false,
+      "time_sec": 0.56,
+      "bbox_xyxy": [
+        301.55,
+        166.86,
+        362.95,
+        305.19
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.939336359500885,
+      "query_index": 1,
+      "track_id": 5,
+      "frame_index": 14,
+      "interpolated": false,
+      "time_sec": 0.56,
+      "bbox_xyxy": [
+        1753.42,
+        109.27,
+        1799.32,
+        254.03
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6240912675857544,
+      "query_index": 5,
+      "track_id": 9,
+      "frame_index": 14,
+      "interpolated": false,
+      "time_sec": 0.56,
+      "bbox_xyxy": [
+        237.97,
+        123.27,
+        285.82,
+        254.49
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9711918234825134,
+      "query_index": 7,
+      "track_id": 0,
+      "frame_index": 14,
+      "interpolated": false,
+      "time_sec": 0.56,
+      "bbox_xyxy": [
+        1755.86,
+        304.56,
+        1841.84,
+        526.55
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9737157821655273,
+      "query_index": 9,
+      "track_id": 3,
+      "frame_index": 14,
+      "interpolated": false,
+      "time_sec": 0.56,
+      "bbox_xyxy": [
+        1023.33,
+        466.96,
+        1139.63,
+        756.38
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.954305112361908,
+      "query_index": 2,
+      "track_id": 1,
+      "frame_index": 14,
+      "interpolated": false,
+      "time_sec": 0.56,
+      "bbox_xyxy": [
+        1104.49,
+        240.54,
+        1191.07,
+        407.71
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9551218748092651,
+      "query_index": 6,
+      "track_id": 2,
+      "frame_index": 14,
+      "interpolated": false,
+      "time_sec": 0.56,
+      "bbox_xyxy": [
+        761.9,
+        271.22,
+        883.58,
+        402.3
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9766601324081421,
+      "query_index": 8,
+      "track_id": 7,
+      "frame_index": 14,
+      "interpolated": false,
+      "time_sec": 0.56,
+      "bbox_xyxy": [
+        148.72,
+        568.42,
+        265.7,
+        868.03
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9482477307319641,
+      "query_index": 4,
+      "track_id": 6,
+      "frame_index": 14,
+      "interpolated": false,
+      "time_sec": 0.56,
+      "bbox_xyxy": [
+        1416.67,
+        198.62,
+        1474.7,
+        338.86
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9626569151878357,
+      "query_index": 0,
+      "track_id": 8,
+      "frame_index": 14,
+      "interpolated": false,
+      "time_sec": 0.56,
+      "bbox_xyxy": [
+        647.57,
+        483.65,
+        751.64,
+        759.96
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9998056888580322,
+      "query_index": null,
+      "frame_index": 15,
+      "time_sec": 0.6,
+      "bbox_xyxy": [
+        631.83,
+        179.61,
+        654.87,
+        202.29
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9359066486358643,
+      "query_index": 3,
+      "track_id": 4,
+      "frame_index": 15,
+      "interpolated": false,
+      "time_sec": 0.6,
+      "bbox_xyxy": [
+        301.39,
+        166.82,
+        362.72,
+        305.47
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9525868892669678,
+      "query_index": 1,
+      "track_id": 1,
+      "frame_index": 15,
+      "interpolated": false,
+      "time_sec": 0.6,
+      "bbox_xyxy": [
+        1104.59,
+        239.47,
+        1190.97,
+        407.67
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9405508041381836,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 15,
+      "interpolated": false,
+      "time_sec": 0.6,
+      "bbox_xyxy": [
+        1753.65,
+        109.07,
+        1799.28,
+        254.35
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9695990085601807,
+      "query_index": 8,
+      "track_id": 0,
+      "frame_index": 15,
+      "interpolated": false,
+      "time_sec": 0.6,
+      "bbox_xyxy": [
+        1755.5,
+        305.24,
+        1841.44,
+        526.98
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6459898948669434,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 15,
+      "interpolated": false,
+      "time_sec": 0.6,
+      "bbox_xyxy": [
+        237.56,
+        122.2,
+        285.78,
+        254.84
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9489291906356812,
+      "query_index": 5,
+      "track_id": 2,
+      "frame_index": 15,
+      "interpolated": false,
+      "time_sec": 0.6,
+      "bbox_xyxy": [
+        757.93,
+        270.16,
+        882.52,
+        402.62
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9748520851135254,
+      "query_index": 9,
+      "track_id": 3,
+      "frame_index": 15,
+      "interpolated": false,
+      "time_sec": 0.6,
+      "bbox_xyxy": [
+        1023.34,
+        466.27,
+        1134.56,
+        759.06
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9492140412330627,
+      "query_index": 2,
+      "track_id": 6,
+      "frame_index": 15,
+      "interpolated": false,
+      "time_sec": 0.6,
+      "bbox_xyxy": [
+        1419.29,
+        199.13,
+        1475.83,
+        337.59
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9679281115531921,
+      "query_index": 7,
+      "track_id": 8,
+      "frame_index": 15,
+      "interpolated": false,
+      "time_sec": 0.6,
+      "bbox_xyxy": [
+        649.18,
+        492.23,
+        751.07,
+        765.85
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9709901213645935,
+      "query_index": 6,
+      "track_id": 7,
+      "frame_index": 15,
+      "interpolated": false,
+      "time_sec": 0.6,
+      "bbox_xyxy": [
+        156.97,
+        571.35,
+        267.05,
+        875.88
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9998317956924438,
+      "query_index": null,
+      "frame_index": 16,
+      "time_sec": 0.64,
+      "bbox_xyxy": [
+        630.06,
+        185.91,
+        653.1,
+        208.59
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9372006058692932,
+      "query_index": 3,
+      "track_id": 4,
+      "frame_index": 16,
+      "interpolated": false,
+      "time_sec": 0.64,
+      "bbox_xyxy": [
+        301.5,
+        166.84,
+        362.71,
+        305.67
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9407758712768555,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 16,
+      "interpolated": false,
+      "time_sec": 0.64,
+      "bbox_xyxy": [
+        1753.72,
+        108.79,
+        1799.27,
+        254.36
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6484788656234741,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 16,
+      "interpolated": false,
+      "time_sec": 0.64,
+      "bbox_xyxy": [
+        237.3,
+        121.67,
+        285.83,
+        255.28
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9677276611328125,
+      "query_index": 8,
+      "track_id": 0,
+      "frame_index": 16,
+      "interpolated": false,
+      "time_sec": 0.64,
+      "bbox_xyxy": [
+        1755.17,
+        305.07,
+        1840.86,
+        529.82
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9485856890678406,
+      "query_index": 6,
+      "track_id": 2,
+      "frame_index": 16,
+      "interpolated": false,
+      "time_sec": 0.64,
+      "bbox_xyxy": [
+        755.54,
+        268.82,
+        882.16,
+        402.7
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9516822695732117,
+      "query_index": 2,
+      "track_id": 1,
+      "frame_index": 16,
+      "interpolated": false,
+      "time_sec": 0.64,
+      "bbox_xyxy": [
+        1103.86,
+        240.94,
+        1190.31,
+        406.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9658660888671875,
+      "query_index": 7,
+      "track_id": 8,
+      "frame_index": 16,
+      "interpolated": false,
+      "time_sec": 0.64,
+      "bbox_xyxy": [
+        649.22,
+        492.35,
+        747.9,
+        766.36
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9747998714447021,
+      "query_index": 9,
+      "track_id": 3,
+      "frame_index": 16,
+      "interpolated": false,
+      "time_sec": 0.64,
+      "bbox_xyxy": [
+        1021.9,
+        467.2,
+        1136.72,
+        759.8
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9520106911659241,
+      "query_index": 5,
+      "track_id": 6,
+      "frame_index": 16,
+      "interpolated": false,
+      "time_sec": 0.64,
+      "bbox_xyxy": [
+        1420.23,
+        198.23,
+        1477.58,
+        338.94
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9697954058647156,
+      "query_index": 1,
+      "track_id": 7,
+      "frame_index": 16,
+      "interpolated": false,
+      "time_sec": 0.64,
+      "bbox_xyxy": [
+        160.18,
+        575.2,
+        273.06,
+        876.22
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9922696352005005,
+      "query_index": null,
+      "frame_index": 17,
+      "time_sec": 0.68,
+      "bbox_xyxy": [
+        625.91,
+        195.41,
+        648.95,
+        218.09
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9365736246109009,
+      "query_index": 3,
+      "track_id": 4,
+      "frame_index": 17,
+      "interpolated": false,
+      "time_sec": 0.68,
+      "bbox_xyxy": [
+        301.58,
+        166.7,
+        362.79,
+        305.82
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9408525228500366,
+      "query_index": 1,
+      "track_id": 5,
+      "frame_index": 17,
+      "interpolated": false,
+      "time_sec": 0.68,
+      "bbox_xyxy": [
+        1753.88,
+        108.52,
+        1799.27,
+        254.36
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.651752233505249,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 17,
+      "interpolated": false,
+      "time_sec": 0.68,
+      "bbox_xyxy": [
+        237.28,
+        121.99,
+        285.59,
+        254.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9714558720588684,
+      "query_index": 9,
+      "track_id": 3,
+      "frame_index": 17,
+      "interpolated": false,
+      "time_sec": 0.68,
+      "bbox_xyxy": [
+        1022.03,
+        466.72,
+        1135.05,
+        758.89
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9520506858825684,
+      "query_index": 2,
+      "track_id": 1,
+      "frame_index": 17,
+      "interpolated": false,
+      "time_sec": 0.68,
+      "bbox_xyxy": [
+        1102.81,
+        240.13,
+        1189.21,
+        405.85
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.968949556350708,
+      "query_index": 7,
+      "track_id": 0,
+      "frame_index": 17,
+      "interpolated": false,
+      "time_sec": 0.68,
+      "bbox_xyxy": [
+        1756.75,
+        305.51,
+        1839.57,
+        530.31
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9626781344413757,
+      "query_index": 6,
+      "track_id": 8,
+      "frame_index": 17,
+      "interpolated": false,
+      "time_sec": 0.68,
+      "bbox_xyxy": [
+        648.78,
+        488.57,
+        745.97,
+        763.65
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9451397061347961,
+      "query_index": 5,
+      "track_id": 2,
+      "frame_index": 17,
+      "interpolated": false,
+      "time_sec": 0.68,
+      "bbox_xyxy": [
+        756.62,
+        264.21,
+        883.27,
+        402.76
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9707372784614563,
+      "query_index": 0,
+      "track_id": 7,
+      "frame_index": 17,
+      "interpolated": false,
+      "time_sec": 0.68,
+      "bbox_xyxy": [
+        164.13,
+        577.99,
+        277.91,
+        876.64
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9406557679176331,
+      "query_index": 8,
+      "track_id": 6,
+      "frame_index": 17,
+      "interpolated": false,
+      "time_sec": 0.68,
+      "bbox_xyxy": [
+        1422.0,
+        198.95,
+        1480.73,
+        341.34
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9990421533584595,
+      "query_index": null,
+      "frame_index": 18,
+      "time_sec": 0.72,
+      "bbox_xyxy": [
+        625.2,
+        206.89,
+        648.24,
+        229.57
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9373306632041931,
+      "query_index": 1,
+      "track_id": 4,
+      "frame_index": 18,
+      "interpolated": false,
+      "time_sec": 0.72,
+      "bbox_xyxy": [
+        301.58,
+        166.79,
+        362.82,
+        305.57
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9418637752532959,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 18,
+      "interpolated": false,
+      "time_sec": 0.72,
+      "bbox_xyxy": [
+        1754.06,
+        108.33,
+        1799.27,
+        254.36
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9697027802467346,
+      "query_index": 7,
+      "track_id": 0,
+      "frame_index": 18,
+      "interpolated": false,
+      "time_sec": 0.72,
+      "bbox_xyxy": [
+        1757.12,
+        306.12,
+        1839.0,
+        530.68
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6538181900978088,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 18,
+      "interpolated": false,
+      "time_sec": 0.72,
+      "bbox_xyxy": [
+        236.93,
+        121.47,
+        285.44,
+        255.04
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9696752429008484,
+      "query_index": 8,
+      "track_id": 3,
+      "frame_index": 18,
+      "interpolated": false,
+      "time_sec": 0.72,
+      "bbox_xyxy": [
+        1023.12,
+        466.58,
+        1132.2,
+        758.74
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9417610168457031,
+      "query_index": 5,
+      "track_id": 2,
+      "frame_index": 18,
+      "interpolated": false,
+      "time_sec": 0.72,
+      "bbox_xyxy": [
+        755.48,
+        260.49,
+        883.95,
+        402.97
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9523177742958069,
+      "query_index": 3,
+      "track_id": 1,
+      "frame_index": 18,
+      "interpolated": false,
+      "time_sec": 0.72,
+      "bbox_xyxy": [
+        1098.7,
+        240.58,
+        1189.52,
+        405.42
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9743280410766602,
+      "query_index": 6,
+      "track_id": 7,
+      "frame_index": 18,
+      "interpolated": false,
+      "time_sec": 0.72,
+      "bbox_xyxy": [
+        163.06,
+        579.12,
+        284.18,
+        878.25
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9615596532821655,
+      "query_index": 2,
+      "track_id": 8,
+      "frame_index": 18,
+      "interpolated": false,
+      "time_sec": 0.72,
+      "bbox_xyxy": [
+        651.69,
+        480.25,
+        744.99,
+        761.12
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9303951263427734,
+      "query_index": 9,
+      "track_id": 6,
+      "frame_index": 18,
+      "interpolated": false,
+      "time_sec": 0.72,
+      "bbox_xyxy": [
+        1422.72,
+        197.64,
+        1484.46,
+        342.37
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9993280172348022,
+      "query_index": null,
+      "frame_index": 19,
+      "time_sec": 0.76,
+      "bbox_xyxy": [
+        623.02,
+        220.44,
+        646.06,
+        243.12
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9376528263092041,
+      "query_index": 1,
+      "track_id": 4,
+      "frame_index": 19,
+      "interpolated": false,
+      "time_sec": 0.76,
+      "bbox_xyxy": [
+        301.57,
+        166.96,
+        362.84,
+        305.68
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.942093014717102,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 19,
+      "interpolated": false,
+      "time_sec": 0.76,
+      "bbox_xyxy": [
+        1754.15,
+        108.17,
+        1799.3,
+        254.41
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6539444923400879,
+      "query_index": 3,
+      "track_id": 9,
+      "frame_index": 19,
+      "interpolated": false,
+      "time_sec": 0.76,
+      "bbox_xyxy": [
+        236.7,
+        121.31,
+        285.14,
+        254.96
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9712426066398621,
+      "query_index": 8,
+      "track_id": 0,
+      "frame_index": 19,
+      "interpolated": false,
+      "time_sec": 0.76,
+      "bbox_xyxy": [
+        1757.8,
+        306.77,
+        1838.19,
+        531.05
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9508680105209351,
+      "query_index": 4,
+      "track_id": 1,
+      "frame_index": 19,
+      "interpolated": false,
+      "time_sec": 0.76,
+      "bbox_xyxy": [
+        1096.45,
+        240.36,
+        1189.92,
+        405.69
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9689411520957947,
+      "query_index": 5,
+      "track_id": 3,
+      "frame_index": 19,
+      "interpolated": false,
+      "time_sec": 0.76,
+      "bbox_xyxy": [
+        1024.12,
+        466.15,
+        1130.17,
+        757.79
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.941761314868927,
+      "query_index": 7,
+      "track_id": 2,
+      "frame_index": 19,
+      "interpolated": false,
+      "time_sec": 0.76,
+      "bbox_xyxy": [
+        752.78,
+        258.23,
+        884.41,
+        401.49
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9659065008163452,
+      "query_index": 6,
+      "track_id": 8,
+      "frame_index": 19,
+      "interpolated": false,
+      "time_sec": 0.76,
+      "bbox_xyxy": [
+        654.31,
+        471.61,
+        744.21,
+        758.77
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9725611209869385,
+      "query_index": 2,
+      "track_id": 7,
+      "frame_index": 19,
+      "interpolated": false,
+      "time_sec": 0.76,
+      "bbox_xyxy": [
+        167.4,
+        578.19,
+        288.88,
+        879.49
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9111000895500183,
+      "query_index": 9,
+      "track_id": 6,
+      "frame_index": 19,
+      "interpolated": false,
+      "time_sec": 0.76,
+      "bbox_xyxy": [
+        1425.68,
+        198.92,
+        1487.98,
+        342.86
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9933458566665649,
+      "query_index": null,
+      "frame_index": 20,
+      "time_sec": 0.8,
+      "bbox_xyxy": [
+        621.2,
+        234.49,
+        644.24,
+        257.17
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9374841451644897,
+      "query_index": 2,
+      "track_id": 4,
+      "frame_index": 20,
+      "interpolated": false,
+      "time_sec": 0.8,
+      "bbox_xyxy": [
+        301.48,
+        167.05,
+        362.89,
+        305.35
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6522473692893982,
+      "query_index": 3,
+      "track_id": 9,
+      "frame_index": 20,
+      "interpolated": false,
+      "time_sec": 0.8,
+      "bbox_xyxy": [
+        236.54,
+        121.34,
+        285.02,
+        254.98
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9420655965805054,
+      "query_index": 1,
+      "track_id": 5,
+      "frame_index": 20,
+      "interpolated": false,
+      "time_sec": 0.8,
+      "bbox_xyxy": [
+        1754.3,
+        108.39,
+        1799.37,
+        254.31
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9692671895027161,
+      "query_index": 5,
+      "track_id": 3,
+      "frame_index": 20,
+      "interpolated": false,
+      "time_sec": 0.8,
+      "bbox_xyxy": [
+        1023.73,
+        466.22,
+        1129.52,
+        757.39
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9399337768554688,
+      "query_index": 6,
+      "track_id": 1,
+      "frame_index": 20,
+      "interpolated": false,
+      "time_sec": 0.8,
+      "bbox_xyxy": [
+        1095.9,
+        240.35,
+        1189.61,
+        405.05
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8897075653076172,
+      "query_index": 8,
+      "track_id": 6,
+      "frame_index": 20,
+      "interpolated": false,
+      "time_sec": 0.8,
+      "bbox_xyxy": [
+        1424.84,
+        198.49,
+        1488.69,
+        343.6
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9436744451522827,
+      "query_index": 7,
+      "track_id": 2,
+      "frame_index": 20,
+      "interpolated": false,
+      "time_sec": 0.8,
+      "bbox_xyxy": [
+        751.31,
+        255.96,
+        885.21,
+        401.07
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9683526754379272,
+      "query_index": 9,
+      "track_id": 0,
+      "frame_index": 20,
+      "interpolated": false,
+      "time_sec": 0.8,
+      "bbox_xyxy": [
+        1759.09,
+        307.46,
+        1836.46,
+        531.69
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9622796177864075,
+      "query_index": 4,
+      "track_id": 8,
+      "frame_index": 20,
+      "interpolated": false,
+      "time_sec": 0.8,
+      "bbox_xyxy": [
+        655.13,
+        462.8,
+        744.05,
+        757.64
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9704868793487549,
+      "query_index": 0,
+      "track_id": 7,
+      "frame_index": 20,
+      "interpolated": false,
+      "time_sec": 0.8,
+      "bbox_xyxy": [
+        172.14,
+        577.17,
+        293.95,
+        880.13
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9360802173614502,
+      "query_index": null,
+      "frame_index": 21,
+      "time_sec": 0.84,
+      "bbox_xyxy": [
+        617.34,
+        249.77,
+        640.38,
+        272.45
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6462186574935913,
+      "query_index": 3,
+      "track_id": 9,
+      "frame_index": 21,
+      "interpolated": false,
+      "time_sec": 0.84,
+      "bbox_xyxy": [
+        236.46,
+        121.33,
+        284.96,
+        254.86
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9412328600883484,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 21,
+      "interpolated": false,
+      "time_sec": 0.84,
+      "bbox_xyxy": [
+        1754.47,
+        108.43,
+        1799.35,
+        254.28
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9370868802070618,
+      "query_index": 1,
+      "track_id": 4,
+      "frame_index": 21,
+      "interpolated": false,
+      "time_sec": 0.84,
+      "bbox_xyxy": [
+        301.44,
+        167.18,
+        363.01,
+        305.14
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9695684313774109,
+      "query_index": 4,
+      "track_id": 3,
+      "frame_index": 21,
+      "interpolated": false,
+      "time_sec": 0.84,
+      "bbox_xyxy": [
+        1023.82,
+        465.74,
+        1128.46,
+        757.32
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9629503488540649,
+      "query_index": 5,
+      "track_id": 0,
+      "frame_index": 21,
+      "interpolated": false,
+      "time_sec": 0.84,
+      "bbox_xyxy": [
+        1759.08,
+        308.58,
+        1835.54,
+        533.72
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9267480373382568,
+      "query_index": 7,
+      "track_id": 2,
+      "frame_index": 21,
+      "interpolated": false,
+      "time_sec": 0.84,
+      "bbox_xyxy": [
+        752.69,
+        250.41,
+        882.72,
+        401.28
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9701476693153381,
+      "query_index": 2,
+      "track_id": 7,
+      "frame_index": 21,
+      "interpolated": false,
+      "time_sec": 0.84,
+      "bbox_xyxy": [
+        175.99,
+        576.04,
+        297.7,
+        880.84
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9656768441200256,
+      "query_index": 6,
+      "track_id": 8,
+      "frame_index": 21,
+      "interpolated": false,
+      "time_sec": 0.84,
+      "bbox_xyxy": [
+        655.55,
+        451.88,
+        742.77,
+        752.93
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9267551898956299,
+      "query_index": 9,
+      "track_id": 1,
+      "frame_index": 21,
+      "interpolated": false,
+      "time_sec": 0.84,
+      "bbox_xyxy": [
+        1094.5,
+        236.35,
+        1187.14,
+        402.69
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8737974166870117,
+      "query_index": 8,
+      "track_id": 6,
+      "frame_index": 21,
+      "interpolated": false,
+      "time_sec": 0.84,
+      "bbox_xyxy": [
+        1416.81,
+        197.53,
+        1490.9,
+        345.16
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9971081018447876,
+      "query_index": null,
+      "frame_index": 22,
+      "time_sec": 0.88,
+      "bbox_xyxy": [
+        615.88,
+        267.64,
+        638.92,
+        290.32
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9405982494354248,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 22,
+      "interpolated": false,
+      "time_sec": 0.88,
+      "bbox_xyxy": [
+        1754.43,
+        108.46,
+        1799.37,
+        254.27
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9371611475944519,
+      "query_index": 1,
+      "track_id": 4,
+      "frame_index": 22,
+      "interpolated": false,
+      "time_sec": 0.88,
+      "bbox_xyxy": [
+        301.41,
+        167.21,
+        362.97,
+        305.07
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6445819139480591,
+      "query_index": 3,
+      "track_id": 9,
+      "frame_index": 22,
+      "interpolated": false,
+      "time_sec": 0.88,
+      "bbox_xyxy": [
+        236.54,
+        121.35,
+        285.18,
+        254.95
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9670736789703369,
+      "query_index": 5,
+      "track_id": 3,
+      "frame_index": 22,
+      "interpolated": false,
+      "time_sec": 0.88,
+      "bbox_xyxy": [
+        1023.4,
+        464.93,
+        1128.17,
+        758.02
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9612130522727966,
+      "query_index": 4,
+      "track_id": 0,
+      "frame_index": 22,
+      "interpolated": false,
+      "time_sec": 0.88,
+      "bbox_xyxy": [
+        1758.35,
+        309.52,
+        1835.4,
+        533.12
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9237267971038818,
+      "query_index": 6,
+      "track_id": 2,
+      "frame_index": 22,
+      "interpolated": false,
+      "time_sec": 0.88,
+      "bbox_xyxy": [
+        751.8,
+        250.1,
+        879.72,
+        399.67
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.973315954208374,
+      "query_index": 9,
+      "track_id": 7,
+      "frame_index": 22,
+      "interpolated": false,
+      "time_sec": 0.88,
+      "bbox_xyxy": [
+        177.86,
+        574.85,
+        300.73,
+        880.92
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.964655339717865,
+      "query_index": 2,
+      "track_id": 8,
+      "frame_index": 22,
+      "interpolated": false,
+      "time_sec": 0.88,
+      "bbox_xyxy": [
+        656.72,
+        443.38,
+        740.35,
+        750.24
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9185000061988831,
+      "query_index": 7,
+      "track_id": 1,
+      "frame_index": 22,
+      "interpolated": false,
+      "time_sec": 0.88,
+      "bbox_xyxy": [
+        1093.81,
+        237.33,
+        1180.99,
+        401.84
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.851239025592804,
+      "query_index": 8,
+      "track_id": 6,
+      "frame_index": 22,
+      "interpolated": false,
+      "time_sec": 0.88,
+      "bbox_xyxy": [
+        1423.5,
+        198.54,
+        1494.45,
+        344.45
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9405005574226379,
+      "query_index": null,
+      "frame_index": 23,
+      "time_sec": 0.92,
+      "bbox_xyxy": [
+        613.86,
+        285.25,
+        636.9,
+        307.93
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9399914741516113,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 23,
+      "interpolated": false,
+      "time_sec": 0.92,
+      "bbox_xyxy": [
+        1754.44,
+        108.44,
+        1799.4,
+        254.24
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9363815784454346,
+      "query_index": 1,
+      "track_id": 4,
+      "frame_index": 23,
+      "interpolated": false,
+      "time_sec": 0.92,
+      "bbox_xyxy": [
+        301.31,
+        167.1,
+        363.18,
+        305.06
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6467065811157227,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 23,
+      "interpolated": false,
+      "time_sec": 0.92,
+      "bbox_xyxy": [
+        236.78,
+        121.4,
+        285.56,
+        255.01
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9593446254730225,
+      "query_index": 2,
+      "track_id": 0,
+      "frame_index": 23,
+      "interpolated": false,
+      "time_sec": 0.92,
+      "bbox_xyxy": [
+        1758.31,
+        310.77,
+        1834.43,
+        533.95
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9665912985801697,
+      "query_index": 7,
+      "track_id": 3,
+      "frame_index": 23,
+      "interpolated": false,
+      "time_sec": 0.92,
+      "bbox_xyxy": [
+        1024.92,
+        463.63,
+        1126.68,
+        757.82
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9667539596557617,
+      "query_index": 3,
+      "track_id": 8,
+      "frame_index": 23,
+      "interpolated": false,
+      "time_sec": 0.92,
+      "bbox_xyxy": [
+        656.86,
+        436.15,
+        740.89,
+        749.47
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9172970056533813,
+      "query_index": 9,
+      "track_id": 2,
+      "frame_index": 23,
+      "interpolated": false,
+      "time_sec": 0.92,
+      "bbox_xyxy": [
+        750.79,
+        248.29,
+        875.55,
+        399.11
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9701296091079712,
+      "query_index": 5,
+      "track_id": 7,
+      "frame_index": 23,
+      "interpolated": false,
+      "time_sec": 0.92,
+      "bbox_xyxy": [
+        180.0,
+        573.9,
+        306.77,
+        879.82
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.844222903251648,
+      "query_index": 6,
+      "track_id": 6,
+      "frame_index": 23,
+      "interpolated": false,
+      "time_sec": 0.92,
+      "bbox_xyxy": [
+        1429.05,
+        200.67,
+        1496.91,
+        344.22
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9247820973396301,
+      "query_index": 8,
+      "track_id": 1,
+      "frame_index": 23,
+      "interpolated": false,
+      "time_sec": 0.92,
+      "bbox_xyxy": [
+        1091.86,
+        234.91,
+        1170.96,
+        401.99
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9995615482330322,
+      "query_index": null,
+      "frame_index": 24,
+      "time_sec": 0.96,
+      "bbox_xyxy": [
+        611.64,
+        307.53,
+        634.68,
+        330.21
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9364759922027588,
+      "query_index": 3,
+      "track_id": 4,
+      "frame_index": 24,
+      "interpolated": false,
+      "time_sec": 0.96,
+      "bbox_xyxy": [
+        301.31,
+        166.92,
+        363.26,
+        304.96
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9393348693847656,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 24,
+      "interpolated": false,
+      "time_sec": 0.96,
+      "bbox_xyxy": [
+        1754.21,
+        108.6,
+        1799.4,
+        254.37
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6536334753036499,
+      "query_index": 5,
+      "track_id": 9,
+      "frame_index": 24,
+      "interpolated": false,
+      "time_sec": 0.96,
+      "bbox_xyxy": [
+        236.65,
+        121.4,
+        285.98,
+        255.26
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.957040548324585,
+      "query_index": 2,
+      "track_id": 0,
+      "frame_index": 24,
+      "interpolated": false,
+      "time_sec": 0.96,
+      "bbox_xyxy": [
+        1757.92,
+        312.05,
+        1833.98,
+        534.22
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9650353193283081,
+      "query_index": 4,
+      "track_id": 3,
+      "frame_index": 24,
+      "interpolated": false,
+      "time_sec": 0.96,
+      "bbox_xyxy": [
+        1025.04,
+        461.66,
+        1125.68,
+        759.06
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9647318720817566,
+      "query_index": 6,
+      "track_id": 8,
+      "frame_index": 24,
+      "interpolated": false,
+      "time_sec": 0.96,
+      "bbox_xyxy": [
+        657.28,
+        432.08,
+        743.46,
+        746.48
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9710320234298706,
+      "query_index": 1,
+      "track_id": 7,
+      "frame_index": 24,
+      "interpolated": false,
+      "time_sec": 0.96,
+      "bbox_xyxy": [
+        182.26,
+        573.04,
+        311.67,
+        878.9
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.915607750415802,
+      "query_index": 8,
+      "track_id": 2,
+      "frame_index": 24,
+      "interpolated": false,
+      "time_sec": 0.96,
+      "bbox_xyxy": [
+        753.75,
+        246.28,
+        868.49,
+        399.42
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9108360409736633,
+      "query_index": 9,
+      "track_id": 1,
+      "frame_index": 24,
+      "interpolated": false,
+      "time_sec": 0.96,
+      "bbox_xyxy": [
+        1087.85,
+        221.47,
+        1158.95,
+        403.8
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8578442931175232,
+      "query_index": 7,
+      "track_id": 6,
+      "frame_index": 24,
+      "interpolated": false,
+      "time_sec": 0.96,
+      "bbox_xyxy": [
+        1445.18,
+        201.39,
+        1499.69,
+        345.35
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9894586801528931,
+      "query_index": null,
+      "frame_index": 25,
+      "time_sec": 1.0,
+      "bbox_xyxy": [
+        612.6,
+        327.66,
+        635.64,
+        350.34
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6642152070999146,
+      "query_index": 6,
+      "track_id": 9,
+      "frame_index": 25,
+      "interpolated": false,
+      "time_sec": 1.0,
+      "bbox_xyxy": [
+        236.72,
+        121.36,
+        285.94,
+        255.17
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9359294176101685,
+      "query_index": 4,
+      "track_id": 4,
+      "frame_index": 25,
+      "interpolated": false,
+      "time_sec": 1.0,
+      "bbox_xyxy": [
+        301.39,
+        167.0,
+        363.38,
+        304.99
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9385634660720825,
+      "query_index": 2,
+      "track_id": 5,
+      "frame_index": 25,
+      "interpolated": false,
+      "time_sec": 1.0,
+      "bbox_xyxy": [
+        1754.12,
+        108.89,
+        1799.41,
+        254.39
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9562707543373108,
+      "query_index": 0,
+      "track_id": 0,
+      "frame_index": 25,
+      "interpolated": false,
+      "time_sec": 1.0,
+      "bbox_xyxy": [
+        1757.9,
+        312.75,
+        1833.37,
+        534.34
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9624074697494507,
+      "query_index": 5,
+      "track_id": 3,
+      "frame_index": 25,
+      "interpolated": false,
+      "time_sec": 1.0,
+      "bbox_xyxy": [
+        1024.53,
+        460.17,
+        1124.57,
+        758.24
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9718142151832581,
+      "query_index": 3,
+      "track_id": 7,
+      "frame_index": 25,
+      "interpolated": false,
+      "time_sec": 1.0,
+      "bbox_xyxy": [
+        186.61,
+        572.99,
+        314.91,
+        877.84
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9176742434501648,
+      "query_index": 7,
+      "track_id": 2,
+      "frame_index": 25,
+      "interpolated": false,
+      "time_sec": 1.0,
+      "bbox_xyxy": [
+        755.49,
+        245.92,
+        863.41,
+        398.48
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9649311900138855,
+      "query_index": 9,
+      "track_id": 8,
+      "frame_index": 25,
+      "interpolated": false,
+      "time_sec": 1.0,
+      "bbox_xyxy": [
+        658.6,
+        431.05,
+        747.95,
+        744.9
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8911306262016296,
+      "query_index": 1,
+      "track_id": 6,
+      "frame_index": 25,
+      "interpolated": false,
+      "time_sec": 1.0,
+      "bbox_xyxy": [
+        1448.55,
+        202.9,
+        1502.26,
+        346.89
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8884475231170654,
+      "query_index": 8,
+      "track_id": 1,
+      "frame_index": 25,
+      "interpolated": false,
+      "time_sec": 1.0,
+      "bbox_xyxy": [
+        1087.86,
+        216.81,
+        1147.03,
+        405.92
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9569078087806702,
+      "query_index": null,
+      "frame_index": 26,
+      "time_sec": 1.04,
+      "bbox_xyxy": [
+        610.75,
+        313.36,
+        633.79,
+        336.04
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9383729100227356,
+      "query_index": 1,
+      "track_id": 5,
+      "frame_index": 26,
+      "interpolated": false,
+      "time_sec": 1.04,
+      "bbox_xyxy": [
+        1753.97,
+        109.05,
+        1799.43,
+        254.5
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9352409243583679,
+      "query_index": 4,
+      "track_id": 4,
+      "frame_index": 26,
+      "interpolated": false,
+      "time_sec": 1.04,
+      "bbox_xyxy": [
+        301.24,
+        166.85,
+        363.45,
+        304.81
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6733908653259277,
+      "query_index": 5,
+      "track_id": 9,
+      "frame_index": 26,
+      "interpolated": false,
+      "time_sec": 1.04,
+      "bbox_xyxy": [
+        236.67,
+        120.82,
+        285.64,
+        254.98
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9560052752494812,
+      "query_index": 0,
+      "track_id": 0,
+      "frame_index": 26,
+      "interpolated": false,
+      "time_sec": 1.04,
+      "bbox_xyxy": [
+        1757.28,
+        313.34,
+        1832.93,
+        534.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9588661789894104,
+      "query_index": 3,
+      "track_id": 3,
+      "frame_index": 26,
+      "interpolated": false,
+      "time_sec": 1.04,
+      "bbox_xyxy": [
+        1024.15,
+        458.81,
+        1123.42,
+        757.52
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9736541509628296,
+      "query_index": 7,
+      "track_id": 7,
+      "frame_index": 26,
+      "interpolated": false,
+      "time_sec": 1.04,
+      "bbox_xyxy": [
+        189.45,
+        573.24,
+        317.89,
+        877.82
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9285143613815308,
+      "query_index": 6,
+      "track_id": 2,
+      "frame_index": 26,
+      "interpolated": false,
+      "time_sec": 1.04,
+      "bbox_xyxy": [
+        756.77,
+        245.89,
+        857.14,
+        398.52
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8988418579101562,
+      "query_index": 2,
+      "track_id": 6,
+      "frame_index": 26,
+      "interpolated": false,
+      "time_sec": 1.04,
+      "bbox_xyxy": [
+        1452.25,
+        203.01,
+        1503.14,
+        346.47
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9679074287414551,
+      "query_index": 9,
+      "track_id": 8,
+      "frame_index": 26,
+      "interpolated": false,
+      "time_sec": 1.04,
+      "bbox_xyxy": [
+        660.35,
+        433.38,
+        750.28,
+        733.36
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8797887563705444,
+      "query_index": 8,
+      "track_id": 1,
+      "frame_index": 26,
+      "interpolated": false,
+      "time_sec": 1.04,
+      "bbox_xyxy": [
+        1086.74,
+        217.66,
+        1141.19,
+        408.93
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9459723234176636,
+      "query_index": null,
+      "frame_index": 27,
+      "time_sec": 1.08,
+      "bbox_xyxy": [
+        613.28,
+        299.47,
+        636.32,
+        322.15
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9374172687530518,
+      "query_index": 1,
+      "track_id": 5,
+      "frame_index": 27,
+      "interpolated": false,
+      "time_sec": 1.08,
+      "bbox_xyxy": [
+        1753.9,
+        109.39,
+        1799.46,
+        254.56
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9339960217475891,
+      "query_index": 3,
+      "track_id": 4,
+      "frame_index": 27,
+      "interpolated": false,
+      "time_sec": 1.08,
+      "bbox_xyxy": [
+        301.12,
+        166.48,
+        363.72,
+        304.86
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6767175197601318,
+      "query_index": 6,
+      "track_id": 9,
+      "frame_index": 27,
+      "interpolated": false,
+      "time_sec": 1.08,
+      "bbox_xyxy": [
+        237.13,
+        120.32,
+        285.68,
+        254.9
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9547950625419617,
+      "query_index": 0,
+      "track_id": 0,
+      "frame_index": 27,
+      "interpolated": false,
+      "time_sec": 1.08,
+      "bbox_xyxy": [
+        1756.95,
+        313.66,
+        1831.83,
+        533.64
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9542242288589478,
+      "query_index": 2,
+      "track_id": 3,
+      "frame_index": 27,
+      "interpolated": false,
+      "time_sec": 1.08,
+      "bbox_xyxy": [
+        1022.0,
+        456.35,
+        1121.9,
+        756.99
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.973479688167572,
+      "query_index": 7,
+      "track_id": 7,
+      "frame_index": 27,
+      "interpolated": false,
+      "time_sec": 1.08,
+      "bbox_xyxy": [
+        193.23,
+        572.99,
+        321.48,
+        878.37
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.876933217048645,
+      "query_index": 9,
+      "track_id": 1,
+      "frame_index": 27,
+      "interpolated": false,
+      "time_sec": 1.08,
+      "bbox_xyxy": [
+        1087.16,
+        216.34,
+        1138.8,
+        411.53
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.971699595451355,
+      "query_index": 8,
+      "track_id": 8,
+      "frame_index": 27,
+      "interpolated": false,
+      "time_sec": 1.08,
+      "bbox_xyxy": [
+        661.31,
+        438.29,
+        756.08,
+        737.52
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9383554458618164,
+      "query_index": 4,
+      "track_id": 2,
+      "frame_index": 27,
+      "interpolated": false,
+      "time_sec": 1.08,
+      "bbox_xyxy": [
+        756.66,
+        243.46,
+        847.06,
+        398.31
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8889158368110657,
+      "query_index": 5,
+      "track_id": 6,
+      "frame_index": 27,
+      "interpolated": false,
+      "time_sec": 1.08,
+      "bbox_xyxy": [
+        1455.98,
+        202.45,
+        1506.33,
+        347.09
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.8965559601783752,
+      "query_index": null,
+      "frame_index": 28,
+      "time_sec": 1.12,
+      "bbox_xyxy": [
+        620.73,
+        269.07,
+        643.77,
+        291.75
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9373949766159058,
+      "query_index": 2,
+      "track_id": 5,
+      "frame_index": 28,
+      "interpolated": false,
+      "time_sec": 1.12,
+      "bbox_xyxy": [
+        1753.83,
+        109.44,
+        1799.47,
+        254.59
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9337055683135986,
+      "query_index": 5,
+      "track_id": 4,
+      "frame_index": 28,
+      "interpolated": false,
+      "time_sec": 1.12,
+      "bbox_xyxy": [
+        300.99,
+        166.47,
+        363.66,
+        304.81
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6813912987709045,
+      "query_index": 6,
+      "track_id": 9,
+      "frame_index": 28,
+      "interpolated": false,
+      "time_sec": 1.12,
+      "bbox_xyxy": [
+        237.15,
+        120.2,
+        285.55,
+        254.81
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9521356225013733,
+      "query_index": 3,
+      "track_id": 3,
+      "frame_index": 28,
+      "interpolated": false,
+      "time_sec": 1.12,
+      "bbox_xyxy": [
+        1022.12,
+        456.2,
+        1121.06,
+        757.08
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9537466168403625,
+      "query_index": 0,
+      "track_id": 0,
+      "frame_index": 28,
+      "interpolated": false,
+      "time_sec": 1.12,
+      "bbox_xyxy": [
+        1755.71,
+        313.4,
+        1832.03,
+        533.79
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.972249448299408,
+      "query_index": 1,
+      "track_id": 7,
+      "frame_index": 28,
+      "interpolated": false,
+      "time_sec": 1.12,
+      "bbox_xyxy": [
+        197.21,
+        573.73,
+        323.0,
+        878.14
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8637726306915283,
+      "query_index": 8,
+      "track_id": 6,
+      "frame_index": 28,
+      "interpolated": false,
+      "time_sec": 1.12,
+      "bbox_xyxy": [
+        1458.33,
+        202.1,
+        1507.1,
+        346.83
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9460200667381287,
+      "query_index": 7,
+      "track_id": 2,
+      "frame_index": 28,
+      "interpolated": false,
+      "time_sec": 1.12,
+      "bbox_xyxy": [
+        757.58,
+        242.41,
+        840.68,
+        398.79
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9708775281906128,
+      "query_index": 4,
+      "track_id": 8,
+      "frame_index": 28,
+      "interpolated": false,
+      "time_sec": 1.12,
+      "bbox_xyxy": [
+        661.04,
+        446.85,
+        762.7,
+        740.6
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8609648942947388,
+      "query_index": 9,
+      "track_id": 1,
+      "frame_index": 28,
+      "interpolated": false,
+      "time_sec": 1.12,
+      "bbox_xyxy": [
+        1086.64,
+        227.86,
+        1135.5,
+        411.57
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9940314888954163,
+      "query_index": null,
+      "frame_index": 29,
+      "time_sec": 1.16,
+      "bbox_xyxy": [
+        623.32,
+        248.49,
+        646.36,
+        271.17
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9367694854736328,
+      "query_index": 2,
+      "track_id": 5,
+      "frame_index": 29,
+      "interpolated": false,
+      "time_sec": 1.16,
+      "bbox_xyxy": [
+        1753.85,
+        109.52,
+        1799.49,
+        254.64
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9337083101272583,
+      "query_index": 4,
+      "track_id": 4,
+      "frame_index": 29,
+      "interpolated": false,
+      "time_sec": 1.16,
+      "bbox_xyxy": [
+        300.87,
+        166.49,
+        363.67,
+        304.73
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6739307045936584,
+      "query_index": 6,
+      "track_id": 9,
+      "frame_index": 29,
+      "interpolated": false,
+      "time_sec": 1.16,
+      "bbox_xyxy": [
+        237.28,
+        120.02,
+        285.48,
+        254.52
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9392388463020325,
+      "query_index": 7,
+      "track_id": 2,
+      "frame_index": 29,
+      "interpolated": false,
+      "time_sec": 1.16,
+      "bbox_xyxy": [
+        756.91,
+        242.55,
+        840.77,
+        399.09
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9526187181472778,
+      "query_index": 1,
+      "track_id": 0,
+      "frame_index": 29,
+      "interpolated": false,
+      "time_sec": 1.16,
+      "bbox_xyxy": [
+        1754.59,
+        313.33,
+        1832.0,
+        534.03
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9484028220176697,
+      "query_index": 3,
+      "track_id": 3,
+      "frame_index": 29,
+      "interpolated": false,
+      "time_sec": 1.16,
+      "bbox_xyxy": [
+        1021.66,
+        456.09,
+        1119.12,
+        756.29
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9712780714035034,
+      "query_index": 5,
+      "track_id": 8,
+      "frame_index": 29,
+      "interpolated": false,
+      "time_sec": 1.16,
+      "bbox_xyxy": [
+        660.88,
+        451.49,
+        766.2,
+        741.45
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9725242257118225,
+      "query_index": 0,
+      "track_id": 7,
+      "frame_index": 29,
+      "interpolated": false,
+      "time_sec": 1.16,
+      "bbox_xyxy": [
+        202.3,
+        574.4,
+        325.7,
+        877.68
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8835137486457825,
+      "query_index": 9,
+      "track_id": 1,
+      "frame_index": 29,
+      "interpolated": false,
+      "time_sec": 1.16,
+      "bbox_xyxy": [
+        1083.87,
+        227.94,
+        1136.52,
+        413.45
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8329533338546753,
+      "query_index": 8,
+      "track_id": 6,
+      "frame_index": 29,
+      "interpolated": false,
+      "time_sec": 1.16,
+      "bbox_xyxy": [
+        1461.08,
+        200.43,
+        1507.98,
+        348.24
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9616996049880981,
+      "query_index": null,
+      "frame_index": 30,
+      "time_sec": 1.2,
+      "bbox_xyxy": [
+        626.76,
+        222.53,
+        649.8,
+        245.21
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9353826642036438,
+      "query_index": 1,
+      "track_id": 5,
+      "frame_index": 30,
+      "interpolated": false,
+      "time_sec": 1.2,
+      "bbox_xyxy": [
+        1753.86,
+        109.46,
+        1799.63,
+        254.47
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9346609115600586,
+      "query_index": 3,
+      "track_id": 4,
+      "frame_index": 30,
+      "interpolated": false,
+      "time_sec": 1.2,
+      "bbox_xyxy": [
+        300.55,
+        165.9,
+        363.9,
+        305.09
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6799597144126892,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 30,
+      "interpolated": false,
+      "time_sec": 1.2,
+      "bbox_xyxy": [
+        237.6,
+        120.51,
+        285.56,
+        255.11
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9538692831993103,
+      "query_index": 0,
+      "track_id": 0,
+      "frame_index": 30,
+      "interpolated": false,
+      "time_sec": 1.2,
+      "bbox_xyxy": [
+        1753.53,
+        313.34,
+        1832.38,
+        535.05
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9454382658004761,
+      "query_index": 6,
+      "track_id": 3,
+      "frame_index": 30,
+      "interpolated": false,
+      "time_sec": 1.2,
+      "bbox_xyxy": [
+        1020.55,
+        454.94,
+        1117.11,
+        755.21
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9337503910064697,
+      "query_index": 8,
+      "track_id": 2,
+      "frame_index": 30,
+      "interpolated": false,
+      "time_sec": 1.2,
+      "bbox_xyxy": [
+        755.89,
+        238.75,
+        840.83,
+        399.87
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9697443842887878,
+      "query_index": 2,
+      "track_id": 8,
+      "frame_index": 30,
+      "interpolated": false,
+      "time_sec": 1.2,
+      "bbox_xyxy": [
+        660.99,
+        452.71,
+        769.76,
+        736.07
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8185514807701111,
+      "query_index": 9,
+      "track_id": 6,
+      "frame_index": 30,
+      "interpolated": false,
+      "time_sec": 1.2,
+      "bbox_xyxy": [
+        1463.83,
+        201.49,
+        1507.84,
+        348.13
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9732567667961121,
+      "query_index": 5,
+      "track_id": 7,
+      "frame_index": 30,
+      "interpolated": false,
+      "time_sec": 1.2,
+      "bbox_xyxy": [
+        209.31,
+        573.5,
+        327.9,
+        877.82
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9086294770240784,
+      "query_index": 7,
+      "track_id": 1,
+      "frame_index": 30,
+      "interpolated": false,
+      "time_sec": 1.2,
+      "bbox_xyxy": [
+        1081.48,
+        228.35,
+        1134.43,
+        413.31
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9996089935302734,
+      "query_index": null,
+      "frame_index": 31,
+      "time_sec": 1.24,
+      "bbox_xyxy": [
+        631.18,
+        210.37,
+        654.22,
+        233.05
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9352930784225464,
+      "query_index": 1,
+      "track_id": 5,
+      "frame_index": 31,
+      "interpolated": false,
+      "time_sec": 1.24,
+      "bbox_xyxy": [
+        1753.84,
+        109.55,
+        1799.54,
+        254.51
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9350941181182861,
+      "query_index": 3,
+      "track_id": 4,
+      "frame_index": 31,
+      "interpolated": false,
+      "time_sec": 1.24,
+      "bbox_xyxy": [
+        300.44,
+        165.91,
+        363.77,
+        305.03
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.7018550634384155,
+      "query_index": 4,
+      "track_id": 9,
+      "frame_index": 31,
+      "interpolated": false,
+      "time_sec": 1.24,
+      "bbox_xyxy": [
+        237.73,
+        120.94,
+        285.44,
+        255.03
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9556151032447815,
+      "query_index": 0,
+      "track_id": 0,
+      "frame_index": 31,
+      "interpolated": false,
+      "time_sec": 1.24,
+      "bbox_xyxy": [
+        1752.3,
+        313.47,
+        1831.94,
+        535.1
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9381784200668335,
+      "query_index": 9,
+      "track_id": 2,
+      "frame_index": 31,
+      "interpolated": false,
+      "time_sec": 1.24,
+      "bbox_xyxy": [
+        755.03,
+        240.4,
+        840.2,
+        400.06
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9421282410621643,
+      "query_index": 6,
+      "track_id": 3,
+      "frame_index": 31,
+      "interpolated": false,
+      "time_sec": 1.24,
+      "bbox_xyxy": [
+        1019.54,
+        454.0,
+        1115.66,
+        755.51
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9698115587234497,
+      "query_index": 2,
+      "track_id": 8,
+      "frame_index": 31,
+      "interpolated": false,
+      "time_sec": 1.24,
+      "bbox_xyxy": [
+        660.09,
+        451.77,
+        768.64,
+        731.81
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9727996587753296,
+      "query_index": 8,
+      "track_id": 7,
+      "frame_index": 31,
+      "interpolated": false,
+      "time_sec": 1.24,
+      "bbox_xyxy": [
+        212.65,
+        572.18,
+        330.28,
+        877.14
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8210195302963257,
+      "query_index": 7,
+      "track_id": 6,
+      "frame_index": 31,
+      "interpolated": false,
+      "time_sec": 1.24,
+      "bbox_xyxy": [
+        1465.55,
+        198.66,
+        1508.15,
+        349.01
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9243544340133667,
+      "query_index": 5,
+      "track_id": 1,
+      "frame_index": 31,
+      "interpolated": false,
+      "time_sec": 1.24,
+      "bbox_xyxy": [
+        1079.41,
+        225.73,
+        1131.8,
+        414.95
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.996254026889801,
+      "query_index": null,
+      "frame_index": 32,
+      "time_sec": 1.28,
+      "bbox_xyxy": [
+        635.38,
+        192.95,
+        658.42,
+        215.63
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.935864269733429,
+      "query_index": 4,
+      "track_id": 4,
+      "frame_index": 32,
+      "interpolated": false,
+      "time_sec": 1.28,
+      "bbox_xyxy": [
+        300.39,
+        166.0,
+        363.66,
+        304.97
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9362388253211975,
+      "query_index": 2,
+      "track_id": 5,
+      "frame_index": 32,
+      "interpolated": false,
+      "time_sec": 1.28,
+      "bbox_xyxy": [
+        1753.93,
+        109.59,
+        1799.47,
+        254.48
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.7010402679443359,
+      "query_index": 3,
+      "track_id": 9,
+      "frame_index": 32,
+      "interpolated": false,
+      "time_sec": 1.28,
+      "bbox_xyxy": [
+        237.91,
+        121.29,
+        285.36,
+        254.94
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9550929069519043,
+      "query_index": 0,
+      "track_id": 0,
+      "frame_index": 32,
+      "interpolated": false,
+      "time_sec": 1.28,
+      "bbox_xyxy": [
+        1751.91,
+        313.85,
+        1830.96,
+        535.54
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.934711217880249,
+      "query_index": 8,
+      "track_id": 2,
+      "frame_index": 32,
+      "interpolated": false,
+      "time_sec": 1.28,
+      "bbox_xyxy": [
+        756.21,
+        240.1,
+        839.79,
+        400.35
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9725425243377686,
+      "query_index": 1,
+      "track_id": 7,
+      "frame_index": 32,
+      "interpolated": false,
+      "time_sec": 1.28,
+      "bbox_xyxy": [
+        214.73,
+        573.29,
+        331.3,
+        877.07
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9392322301864624,
+      "query_index": 9,
+      "track_id": 3,
+      "frame_index": 32,
+      "interpolated": false,
+      "time_sec": 1.28,
+      "bbox_xyxy": [
+        1017.97,
+        452.63,
+        1114.97,
+        752.44
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9302689433097839,
+      "query_index": 6,
+      "track_id": 1,
+      "frame_index": 32,
+      "interpolated": false,
+      "time_sec": 1.28,
+      "bbox_xyxy": [
+        1077.84,
+        223.73,
+        1130.55,
+        415.85
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9742976427078247,
+      "query_index": 7,
+      "track_id": 8,
+      "frame_index": 32,
+      "interpolated": false,
+      "time_sec": 1.28,
+      "bbox_xyxy": [
+        658.35,
+        448.76,
+        764.39,
+        726.85
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8302781581878662,
+      "query_index": 5,
+      "track_id": 6,
+      "frame_index": 32,
+      "interpolated": false,
+      "time_sec": 1.28,
+      "bbox_xyxy": [
+        1467.56,
+        196.1,
+        1509.65,
+        349.54
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9998566508293152,
+      "query_index": null,
+      "frame_index": 33,
+      "time_sec": 1.32,
+      "bbox_xyxy": [
+        638.59,
+        178.51,
+        661.63,
+        201.19
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.935413658618927,
+      "query_index": 2,
+      "track_id": 5,
+      "frame_index": 33,
+      "interpolated": false,
+      "time_sec": 1.32,
+      "bbox_xyxy": [
+        1753.87,
+        109.63,
+        1799.45,
+        254.44
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9285892844200134,
+      "query_index": 6,
+      "track_id": 2,
+      "frame_index": 33,
+      "interpolated": false,
+      "time_sec": 1.32,
+      "bbox_xyxy": [
+        756.36,
+        239.82,
+        839.84,
+        400.39
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.7066823244094849,
+      "query_index": 3,
+      "track_id": 9,
+      "frame_index": 33,
+      "interpolated": false,
+      "time_sec": 1.32,
+      "bbox_xyxy": [
+        237.95,
+        121.58,
+        285.52,
+        254.85
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9362136125564575,
+      "query_index": 5,
+      "track_id": 4,
+      "frame_index": 33,
+      "interpolated": false,
+      "time_sec": 1.32,
+      "bbox_xyxy": [
+        300.33,
+        166.33,
+        363.44,
+        304.9
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.952590823173523,
+      "query_index": 9,
+      "track_id": 3,
+      "frame_index": 33,
+      "interpolated": false,
+      "time_sec": 1.32,
+      "bbox_xyxy": [
+        1016.09,
+        451.74,
+        1114.23,
+        752.56
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9547777771949768,
+      "query_index": 0,
+      "track_id": 0,
+      "frame_index": 33,
+      "interpolated": false,
+      "time_sec": 1.32,
+      "bbox_xyxy": [
+        1750.43,
+        313.83,
+        1830.07,
+        535.39
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9738197326660156,
+      "query_index": 1,
+      "track_id": 7,
+      "frame_index": 33,
+      "interpolated": false,
+      "time_sec": 1.32,
+      "bbox_xyxy": [
+        215.43,
+        570.08,
+        334.01,
+        875.76
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.7807608246803284,
+      "query_index": 8,
+      "track_id": 6,
+      "frame_index": 33,
+      "interpolated": false,
+      "time_sec": 1.32,
+      "bbox_xyxy": [
+        1466.66,
+        194.69,
+        1510.88,
+        349.11
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9265835285186768,
+      "query_index": 4,
+      "track_id": 1,
+      "frame_index": 33,
+      "interpolated": false,
+      "time_sec": 1.32,
+      "bbox_xyxy": [
+        1078.23,
+        224.32,
+        1127.12,
+        416.13
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9772149920463562,
+      "query_index": 7,
+      "track_id": 8,
+      "frame_index": 33,
+      "interpolated": false,
+      "time_sec": 1.32,
+      "bbox_xyxy": [
+        655.22,
+        443.62,
+        759.61,
+        724.25
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.7707024812698364,
+      "query_index": null,
+      "frame_index": 34,
+      "time_sec": 1.36,
+      "bbox_xyxy": [
+        643.73,
+        170.02,
+        666.77,
+        192.7
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9347938299179077,
+      "query_index": 1,
+      "track_id": 5,
+      "frame_index": 34,
+      "interpolated": false,
+      "time_sec": 1.36,
+      "bbox_xyxy": [
+        1753.84,
+        109.55,
+        1799.44,
+        254.49
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9350147247314453,
+      "query_index": 4,
+      "track_id": 4,
+      "frame_index": 34,
+      "interpolated": false,
+      "time_sec": 1.36,
+      "bbox_xyxy": [
+        300.26,
+        166.63,
+        363.26,
+        304.87
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.70696622133255,
+      "query_index": 2,
+      "track_id": 9,
+      "frame_index": 34,
+      "interpolated": false,
+      "time_sec": 1.36,
+      "bbox_xyxy": [
+        238.05,
+        121.64,
+        286.0,
+        254.85
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9527653455734253,
+      "query_index": 0,
+      "track_id": 0,
+      "frame_index": 34,
+      "interpolated": false,
+      "time_sec": 1.36,
+      "bbox_xyxy": [
+        1749.73,
+        313.76,
+        1829.33,
+        534.77
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9252001047134399,
+      "query_index": 7,
+      "track_id": 2,
+      "frame_index": 34,
+      "interpolated": false,
+      "time_sec": 1.36,
+      "bbox_xyxy": [
+        757.11,
+        241.31,
+        840.47,
+        400.47
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.7330530285835266,
+      "query_index": 8,
+      "track_id": 6,
+      "frame_index": 34,
+      "interpolated": false,
+      "time_sec": 1.36,
+      "bbox_xyxy": [
+        1466.78,
+        194.56,
+        1511.61,
+        347.78
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9749988317489624,
+      "query_index": 3,
+      "track_id": 7,
+      "frame_index": 34,
+      "interpolated": false,
+      "time_sec": 1.36,
+      "bbox_xyxy": [
+        215.58,
+        567.95,
+        336.87,
+        874.53
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9584960341453552,
+      "query_index": 9,
+      "track_id": 3,
+      "frame_index": 34,
+      "interpolated": false,
+      "time_sec": 1.36,
+      "bbox_xyxy": [
+        1013.96,
+        449.98,
+        1114.16,
+        748.49
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9186369776725769,
+      "query_index": 5,
+      "track_id": 1,
+      "frame_index": 34,
+      "interpolated": false,
+      "time_sec": 1.36,
+      "bbox_xyxy": [
+        1078.44,
+        221.67,
+        1123.59,
+        416.35
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9765175580978394,
+      "query_index": 6,
+      "track_id": 8,
+      "frame_index": 34,
+      "interpolated": false,
+      "time_sec": 1.36,
+      "bbox_xyxy": [
+        648.25,
+        439.36,
+        752.99,
+        723.41
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9869951009750366,
+      "query_index": null,
+      "frame_index": 35,
+      "time_sec": 1.4,
+      "bbox_xyxy": [
+        645.17,
+        161.26,
+        668.21,
+        183.94
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9347231984138489,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 35,
+      "interpolated": false,
+      "time_sec": 1.4,
+      "bbox_xyxy": [
+        1753.84,
+        109.55,
+        1799.44,
+        254.43
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.934587836265564,
+      "query_index": 4,
+      "track_id": 4,
+      "frame_index": 35,
+      "interpolated": false,
+      "time_sec": 1.4,
+      "bbox_xyxy": [
+        300.22,
+        166.87,
+        363.14,
+        304.84
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9513736963272095,
+      "query_index": 1,
+      "track_id": 0,
+      "frame_index": 35,
+      "interpolated": false,
+      "time_sec": 1.4,
+      "bbox_xyxy": [
+        1748.71,
+        313.62,
+        1828.99,
+        535.33
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.7125794887542725,
+      "query_index": 2,
+      "track_id": 9,
+      "frame_index": 35,
+      "interpolated": false,
+      "time_sec": 1.4,
+      "bbox_xyxy": [
+        238.65,
+        121.49,
+        286.77,
+        254.69
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8989518880844116,
+      "query_index": 6,
+      "track_id": 1,
+      "frame_index": 35,
+      "interpolated": false,
+      "time_sec": 1.4,
+      "bbox_xyxy": [
+        1078.51,
+        221.08,
+        1122.36,
+        416.41
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9237605929374695,
+      "query_index": 5,
+      "track_id": 2,
+      "frame_index": 35,
+      "interpolated": false,
+      "time_sec": 1.4,
+      "bbox_xyxy": [
+        759.71,
+        239.54,
+        840.81,
+        400.21
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.7171527743339539,
+      "query_index": 8,
+      "track_id": 6,
+      "frame_index": 35,
+      "interpolated": false,
+      "time_sec": 1.4,
+      "bbox_xyxy": [
+        1466.89,
+        195.05,
+        1513.64,
+        347.33
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9665018916130066,
+      "query_index": 9,
+      "track_id": 3,
+      "frame_index": 35,
+      "interpolated": false,
+      "time_sec": 1.4,
+      "bbox_xyxy": [
+        1012.55,
+        449.99,
+        1116.66,
+        741.34
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9774090051651001,
+      "query_index": 7,
+      "track_id": 7,
+      "frame_index": 35,
+      "interpolated": false,
+      "time_sec": 1.4,
+      "bbox_xyxy": [
+        218.13,
+        567.24,
+        342.24,
+        872.48
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.974052906036377,
+      "query_index": 3,
+      "track_id": 8,
+      "frame_index": 35,
+      "interpolated": false,
+      "time_sec": 1.4,
+      "bbox_xyxy": [
+        645.51,
+        435.32,
+        745.11,
+        723.09
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.7276633977890015,
+      "query_index": null,
+      "frame_index": 36,
+      "time_sec": 1.44,
+      "bbox_xyxy": [
+        646.86,
+        155.31,
+        669.9,
+        177.99
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.935560941696167,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 36,
+      "interpolated": false,
+      "time_sec": 1.44,
+      "bbox_xyxy": [
+        1753.86,
+        109.49,
+        1799.4,
+        254.4
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.933976411819458,
+      "query_index": 3,
+      "track_id": 4,
+      "frame_index": 36,
+      "interpolated": false,
+      "time_sec": 1.44,
+      "bbox_xyxy": [
+        300.27,
+        167.01,
+        363.0,
+        304.83
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.7257037162780762,
+      "query_index": 2,
+      "track_id": 9,
+      "frame_index": 36,
+      "interpolated": false,
+      "time_sec": 1.44,
+      "bbox_xyxy": [
+        238.94,
+        121.74,
+        286.68,
+        254.24
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9508206844329834,
+      "query_index": 1,
+      "track_id": 0,
+      "frame_index": 36,
+      "interpolated": false,
+      "time_sec": 1.44,
+      "bbox_xyxy": [
+        1748.31,
+        313.56,
+        1828.41,
+        537.4
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9660195112228394,
+      "query_index": 6,
+      "track_id": 3,
+      "frame_index": 36,
+      "interpolated": false,
+      "time_sec": 1.44,
+      "bbox_xyxy": [
+        1010.92,
+        449.93,
+        1115.14,
+        741.86
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.7050858736038208,
+      "query_index": 9,
+      "track_id": 6,
+      "frame_index": 36,
+      "interpolated": false,
+      "time_sec": 1.44,
+      "bbox_xyxy": [
+        1465.97,
+        194.83,
+        1514.45,
+        347.54
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9775791764259338,
+      "query_index": 7,
+      "track_id": 7,
+      "frame_index": 36,
+      "interpolated": false,
+      "time_sec": 1.44,
+      "bbox_xyxy": [
+        218.03,
+        565.98,
+        346.72,
+        873.74
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9193997383117676,
+      "query_index": 4,
+      "track_id": 2,
+      "frame_index": 36,
+      "interpolated": false,
+      "time_sec": 1.44,
+      "bbox_xyxy": [
+        764.13,
+        235.97,
+        841.71,
+        400.44
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8732689023017883,
+      "query_index": 5,
+      "track_id": 1,
+      "frame_index": 36,
+      "interpolated": false,
+      "time_sec": 1.44,
+      "bbox_xyxy": [
+        1076.92,
+        222.99,
+        1120.12,
+        416.82
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9751574993133545,
+      "query_index": 8,
+      "track_id": 8,
+      "frame_index": 36,
+      "interpolated": false,
+      "time_sec": 1.44,
+      "bbox_xyxy": [
+        642.15,
+        433.74,
+        739.06,
+        722.82
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "ball",
+      "score": 0.9900466203689575,
+      "query_index": null,
+      "frame_index": 37,
+      "time_sec": 1.48,
+      "bbox_xyxy": [
+        652.04,
+        144.81,
+        675.08,
+        167.49
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9345757365226746,
+      "query_index": 3,
+      "track_id": 4,
+      "frame_index": 37,
+      "interpolated": false,
+      "time_sec": 1.48,
+      "bbox_xyxy": [
+        300.37,
+        167.23,
+        362.94,
+        304.76
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.7195346355438232,
+      "query_index": 2,
+      "track_id": 9,
+      "frame_index": 37,
+      "interpolated": false,
+      "time_sec": 1.48,
+      "bbox_xyxy": [
+        239.28,
+        121.45,
+        286.66,
+        254.09
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9346044063568115,
+      "query_index": 0,
+      "track_id": 5,
+      "frame_index": 37,
+      "interpolated": false,
+      "time_sec": 1.48,
+      "bbox_xyxy": [
+        1753.72,
+        109.96,
+        1799.01,
+        254.35
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9518293142318726,
+      "query_index": 1,
+      "track_id": 0,
+      "frame_index": 37,
+      "interpolated": false,
+      "time_sec": 1.48,
+      "bbox_xyxy": [
+        1748.42,
+        314.05,
+        1827.67,
+        538.79
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9798262715339661,
+      "query_index": 9,
+      "track_id": 7,
+      "frame_index": 37,
+      "interpolated": false,
+      "time_sec": 1.48,
+      "bbox_xyxy": [
+        216.88,
+        565.3,
+        349.92,
+        872.03
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9650149941444397,
+      "query_index": 5,
+      "track_id": 3,
+      "frame_index": 37,
+      "interpolated": false,
+      "time_sec": 1.48,
+      "bbox_xyxy": [
+        1008.13,
+        450.13,
+        1115.05,
+        737.38
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.6754201650619507,
+      "query_index": 8,
+      "track_id": 6,
+      "frame_index": 37,
+      "interpolated": false,
+      "time_sec": 1.48,
+      "bbox_xyxy": [
+        1466.57,
+        195.1,
+        1517.17,
+        347.28
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.8379132747650146,
+      "query_index": 6,
+      "track_id": 1,
+      "frame_index": 37,
+      "interpolated": false,
+      "time_sec": 1.48,
+      "bbox_xyxy": [
+        1077.01,
+        223.33,
+        1117.17,
+        416.56
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9746003150939941,
+      "query_index": 4,
+      "track_id": 8,
+      "frame_index": 37,
+      "interpolated": false,
+      "time_sec": 1.48,
+      "bbox_xyxy": [
+        637.01,
+        434.31,
+        733.92,
+        724.41
+      ]
+    },
+    {
+      "class_id": 0,
+      "class_name": "player",
+      "score": 0.9048945903778076,
+      "query_index": 7,
+      "track_id": 2,
+      "frame_index": 37,
+      "interpolated": false,
+      "time_sec": 1.48,
+      "bbox_xyxy": [
+        769.5,
+        233.06,
+        843.64,
+        400.83
+      ]
+    }
+  ]
+}
